@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  background: red;
+}
+
+html {
+  font-size: 85%;
+}
+
+body {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}

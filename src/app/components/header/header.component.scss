@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+
+  &__name {
+    font-weight: 500;
+    margin-right: auto;
+  }
+
+  &__link {
+    padding: 1rem 0;
+    margin-left: 2rem;
+  }
+}

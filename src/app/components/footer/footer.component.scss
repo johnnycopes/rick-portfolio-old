@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+
+  &__email {
+    margin-right: auto;
+  }
+
+  &__link {
+    padding: 1rem 0;
+    margin-left: 2rem;
+  }
+}

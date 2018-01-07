@@ -1,0 +1,33 @@
+@import './reset';
+@import './variables';
+@import './mixins';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 300;
+  font-family: $font-stack;
+  height: 100vh;
+}
+
+a {
+  &:link,
+  &:visited,
+  &:hover,
+  &:focus,
+  &:active {
+    color: $font-color;
+  }
+}
+
+li {
+  list-style: none;
+}
