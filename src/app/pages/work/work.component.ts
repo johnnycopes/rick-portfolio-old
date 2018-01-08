@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ProjectComponent } from '../../components/project/project.component';
-
-import { PROJECTS } from '../../shared/project.data';
+import { Project } from '../../shared/project.model';
+import { ProjectsService } from '../../services/projects.service';
 
 @Component({
   selector: 'app-work',
@@ -9,11 +9,16 @@ import { PROJECTS } from '../../shared/project.data';
   styleUrls: ['./work.component.scss']
 })
 export class WorkComponent implements OnInit {
-  projects = PROJECTS;
+  projects: Project[];
 
-  constructor() { }
+  getProjects(): void {
+    this.projects = this.projectsService.getProjects();
+  }
+
+  constructor(private projectsService: ProjectsService) { }
 
   ngOnInit() {
+    this.getProjects();
   }
 
 }

@@ -14,6 +14,7 @@ import { MiscComponent } from './pages/misc/misc.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ProjectComponent } from './components/project/project.component';
+import { ProjectsService } from './services/projects.service';
 
 
 @NgModule({
@@ -30,7 +31,7 @@ import { ProjectComponent } from './components/project/project.component';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [ProjectsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
