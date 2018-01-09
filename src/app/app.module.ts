@@ -1,8 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-
+// App
 import { AppComponent } from './app.component';
+import { AppRoutingModule } from './app-routing.module';
 
 // Pages
 import { HomeComponent } from './pages/home/home.component';
@@ -14,22 +15,27 @@ import { MiscComponent } from './pages/misc/misc.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ProjectComponent } from './components/project/project.component';
+import { ClipComponent } from './components/clip/clip.component';
+
+// Services
 import { ProjectsService } from './services/projects.service';
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    HomeComponent,
+    AboutComponent,
+    WorkComponent,
+    MiscComponent,
     HeaderComponent,
     FooterComponent,
-    AboutComponent,
-    MiscComponent,
-    HomeComponent,
     ProjectComponent,
-    WorkComponent,
+    ClipComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [ProjectsService],
   bootstrap: [AppComponent]

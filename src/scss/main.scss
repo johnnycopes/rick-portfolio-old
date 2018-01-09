@@ -13,7 +13,7 @@ html {
 body {
   margin: 0;
   font-size: 2rem;
-  font-weight: 300;
+  font-weight: 200;
   font-family: $font-stack;
   height: 100vh;
 }
@@ -25,6 +25,7 @@ a {
   &:focus,
   &:active {
     color: $font-color;
+    text-decoration: none;
   }
 }
 
