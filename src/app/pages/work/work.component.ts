@@ -11,14 +11,13 @@ import { ProjectsService } from '../../services/projects.service';
 export class WorkComponent implements OnInit {
   projects: Project[];
 
-  getProjects(): void {
-    this.projects = this.projectsService.getProjects();
-  }
-
   constructor(private projectsService: ProjectsService) { }
 
   ngOnInit() {
     this.getProjects();
   }
 
+  getProjects(): void {
+    this.projects = this.projectsService.getProjects();
+  }
 }

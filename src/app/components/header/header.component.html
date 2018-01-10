@@ -1,16 +1,41 @@
 <header class="header">
   <div class="header__container">
-    <li class="header__name">
-      <a routerLink="/">rick segal</a>
-    </li>
-    <li class="header__link">
-      <a routerLink="/work">work</a>
-    </li>
-    <li class="header__link">
-      <a routerLink="/about">about</a>
-    </li>
-    <li class="header__link">
-      <a routerLink="/misc">t.t.i.l.</a>
-    </li>
+    <nav class="header__left">
+      <li class="header__name">
+        <a routerLink="/">rick segal</a>
+      </li>
+      <span class="header__item">|</span>
+      <li class="header__item">
+        <a href="mailto:risegal4@gmail.com" target="_blank">
+          <i class="fa fa-lg fa-envelope-o" aria-hidden="true"></i>
+        </a>
+      </li>
+      <li class="header__item">
+        <a href="https://www.linkedin.com/in/rsegal" target="_blank">
+          <i class="fa fa-lg fa-linkedin-square" aria-hidden="true"></i>
+        </a>
+      </li>
+      <li class="header__item">
+        <a href="https://www.instagram.com/riiyaack/" target="_blank">
+          <i class="fa fa-lg fa-instagram" aria-hidden="true"></i>
+        </a>
+      </li>
+      <li class="header__item">
+        <a href="https://twitter.com/kanyewest" target="_blank">
+          <i class="fa fa-lg fa-twitter-square" aria-hidden="true"></i>
+        </a>
+      </li>
+    </nav>
+    <nav class="header__right">
+      <li class="header__item">
+        <a routerLink="/work">work</a>
+      </li>
+      <li class="header__item">
+        <a routerLink="/about">about</a>
+      </li>
+      <li class="header__item">
+        <a routerLink="/misc">t.t.i.l.</a>
+      </li>
+    </nav>
   </div>
 </header>

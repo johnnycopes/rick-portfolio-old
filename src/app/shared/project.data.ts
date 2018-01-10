@@ -2,6 +2,7 @@ import { Project } from './project.model';
 
 export const PROJECTS: Project[] = [
   {
+    id: 1,
     headline: 'Microsoft',
     title: 'Spread Harmony',
     path: 'resized_screenshots/Spread-Harmony',
@@ -17,6 +18,7 @@ export const PROJECTS: Project[] = [
     ]
   },
   {
+    id: 2,
     headline: 'Windows 10',
     title: 'Newest Users',
     path: 'resized_screenshots/Newest-Users',
@@ -32,6 +34,7 @@ export const PROJECTS: Project[] = [
     ]
   },
   {
+    id: 3,
     headline: 'Windows 10',
     title: 'Bug Chicks',
     path: 'resized_screenshots/Bug-Chicks',
@@ -43,6 +46,7 @@ export const PROJECTS: Project[] = [
     ]
   },
   {
+    id: 4,
     headline: 'Surface Pro 4',
     title: 'Snapchat Eurotrip',
     path: 'resized_screenshots/Snapchat-Eurotrip',
@@ -54,6 +58,7 @@ export const PROJECTS: Project[] = [
     ]
   },
   {
+    id: 5,
     headline: 'Surface Book',
     title: 'Tim Flach',
     path: 'resized_screenshots/Tim-Flach',
@@ -65,6 +70,7 @@ export const PROJECTS: Project[] = [
     ]
   },
   {
+    id: 6,
     headline: 'Microsoft',
     title: 'Girls Do Science',
     path: 'resized_screenshots/Girls-Do-Science',
@@ -80,6 +86,7 @@ export const PROJECTS: Project[] = [
     ]
   },
   {
+    id: 7,
     headline: 'Microsoft',
     title: 'Digital',
     path: 'screenshots/Digital',
@@ -95,6 +102,7 @@ export const PROJECTS: Project[] = [
     ]
   },
   {
+    id: 8,
     headline: 'Intel',
     title: 'Simon Jacomet',
     path: 'screenshots/Simon-Jacomet',
@@ -106,6 +114,7 @@ export const PROJECTS: Project[] = [
     ]
   },
   {
+    id: 9,
     headline: 'Surface Book',
     title: 'Times Square Takeover',
     path: 'screenshots/Times-Square-Takeover',
@@ -121,6 +130,7 @@ export const PROJECTS: Project[] = [
     ]
   },
   {
+    id: 10,
     headline: 'Lenovo',
     title: 'Yasmin Belo-Osagie',
     path: 'screenshots/Yasmin-Belo-Osagie',
@@ -132,6 +142,7 @@ export const PROJECTS: Project[] = [
     ]
   },
   {
+    id: 11,
     headline: 'Surface Pro 4',
     title: 'Steven Mancusi',
     path: 'screenshots/Steven-Mancusi',
@@ -143,6 +154,7 @@ export const PROJECTS: Project[] = [
     ]
   },
   {
+    id: 12,
     headline: 'Personal',
     title: 'Photography',
     path: 'photography/Lucerne-Lake',

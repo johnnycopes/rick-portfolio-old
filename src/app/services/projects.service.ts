@@ -9,6 +9,10 @@ export class ProjectsService {
     return PROJECTS;
   }
 
+  getProject(id: number): Project {
+    return PROJECTS.filter(project => project.id === id)[0];
+  }
+
   constructor() { }
 
 }

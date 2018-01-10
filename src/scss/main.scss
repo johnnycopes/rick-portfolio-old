@@ -18,15 +18,15 @@ body {
   height: 100vh;
 }
 
-a {
-  &:link,
-  &:visited,
-  &:hover,
-  &:focus,
-  &:active {
-    color: $font-color;
-    text-decoration: none;
-  }
+a,
+a:link,
+a:visited,
+a:hover,
+a:focus,
+a:active {
+  display: block;
+  color: $font-color;
+  text-decoration: none;
 }
 
 li {
