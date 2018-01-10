@@ -1,5 +1,6 @@
 @import './reset';
 @import './variables';
+@import './animations';
 @import './mixins';
 
 * {
@@ -13,9 +14,9 @@ html {
 body {
   margin: 0;
   font-size: 2rem;
-  font-weight: 200;
+  font-weight: 100;
   font-family: $font-stack;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 a,
@@ -31,4 +32,14 @@ a:active {
 
 li {
   list-style: none;
+}
+
+.btn {
+  padding: 1rem 0;
+  text-align: center;
+  display: block;
+  color: $font-color;
+  border: 1px solid $font-color;
+  // transition: $transition;
+  cursor: pointer;
 }

@@ -7,17 +7,4 @@
       <div class="project__title">{{project.title}}</div>
     </div>
   </a>
-  <figcaption class="project__menu">
-    <a class="project__menu-link"
-      routerLink="/work/{{project.tabs[0].id}}"
-      >
-      {{project.tabs[0].name}}
-    </a>
-    <a class="project__menu-link"
-      routerLink="/work/{{project.tabs[1].id}}"
-      *ngIf="project.tabs[1]"
-      >
-      {{project.tabs[1].name}}
-    </a>
-  </figcaption>
 </figure>

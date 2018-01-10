@@ -1,0 +1,24 @@
+.about {
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+  &__pic {
+    grid-column: 1;
+  }
+
+  &__bio {
+    grid-column: 2;
+    text-align: center;
+  }
+
+  &__greeting {
+    // font
+  }
+
+  &__btn-group {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+}

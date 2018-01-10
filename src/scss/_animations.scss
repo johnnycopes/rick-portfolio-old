@@ -1,0 +1,34 @@
+// button hover effect
+
+.hvr-shutter-out-horizontal {
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  transition: color 250ms;
+
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: $action-color;
+    transform: scaleX(0);
+    transform-origin: 50%;
+    transition: transform 250ms ease-out;
+  }
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: $bg-color;
+  }
+
+  &:hover::before,
+  &:focus::before,
+  &:active::before {
+    transform: scaleX(1);
+  }
+}
