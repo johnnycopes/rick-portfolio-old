@@ -9,11 +9,11 @@ export const PROJECTS: Project[] = [
     clips: [
       {
         name: 'TV',
-        id: '201600392'
+        url: 'https://player.vimeo.com/video/201600392'
       },
       {
         name: 'Case Study',
-        id: '199375695'
+        url: 'https://player.vimeo.com/video/199375695'
       }
     ]
   },
@@ -25,11 +25,11 @@ export const PROJECTS: Project[] = [
     clips: [
       {
         name: 'TV',
-        id: '199377033'
+        url: 'https://player.vimeo.com/video/199377033'
       },
       {
         name: 'Online Video',
-        id: '199376994'
+        url: 'https://player.vimeo.com/video/199376994'
       },
     ]
   },
@@ -41,7 +41,7 @@ export const PROJECTS: Project[] = [
     clips: [
       {
         name: 'TV',
-        id: '199376306'
+        url: 'https://player.vimeo.com/video/199376306'
       }
     ]
   },
@@ -53,7 +53,7 @@ export const PROJECTS: Project[] = [
     clips: [
       {
         name: 'Online Video',
-        id: '199379527'
+        url: 'https://player.vimeo.com/video/199379527'
       }
     ]
   },
@@ -65,7 +65,7 @@ export const PROJECTS: Project[] = [
     clips: [
       {
         name: 'TV',
-        id: '199376398'
+        url: 'https://player.vimeo.com/video/199376398'
       }
     ]
   },
@@ -77,11 +77,11 @@ export const PROJECTS: Project[] = [
     clips: [
       {
         name: 'Longform Video',
-        id: '153027090'
+        url: 'https://player.vimeo.com/video/153027090'
       },
       {
         name: 'Case Study',
-        id: '153027091'
+        url: 'https://player.vimeo.com/video/153027091'
       }
     ]
   },
@@ -93,11 +93,11 @@ export const PROJECTS: Project[] = [
     clips: [
       {
         name: 'Digital Sizzle Video',
-        id: '199892901'
+        url: 'https://player.vimeo.com/video/199892901'
       },
       {
         name: 'Interactive Cube',
-        id: '199726430'
+        url: 'https://player.vimeo.com/video/199726430'
       }
     ]
   },
@@ -109,7 +109,7 @@ export const PROJECTS: Project[] = [
     clips: [
       {
         name: 'TV',
-        id: '199379408'
+        url: 'https://player.vimeo.com/video/199379408'
       }
     ]
   },
@@ -121,11 +121,11 @@ export const PROJECTS: Project[] = [
     clips: [
       {
         name: 'Nasdaq',
-        id: '199725283'
+        url: 'https://player.vimeo.com/video/199725283'
       },
       {
         name: 'Nasdaq + Reuters',
-        id: '199725094'
+        url: 'https://player.vimeo.com/video/199725094'
       }
     ]
   },
@@ -137,7 +137,7 @@ export const PROJECTS: Project[] = [
     clips: [
       {
         name: 'TV',
-        id: '201602899'
+        url: 'https://player.vimeo.com/video/201602899'
       }
     ]
   },
@@ -149,20 +149,20 @@ export const PROJECTS: Project[] = [
     clips: [
       {
         name: 'TV',
-        id: '199375987'
-      }
-    ]
-  },
-  {
-    id: 12,
-    headline: 'Personal',
-    title: 'Photography',
-    path: 'photography/Lucerne-Lake',
-    clips: [
-      {
-        name: 'View all',
-        link: 'photography'
+        url: 'https://player.vimeo.com/video/199375987'
       }
     ]
   }
+  // {
+  //   id: 12,
+  //   headline: 'Personal',
+  //   title: 'Photography',
+  //   path: 'photography/Lucerne-Lake',
+  //   clips: [
+  //     {
+  //       name: 'View all',
+  //       link: 'photography'
+  //     }
+  //   ]
+  // }
 ];

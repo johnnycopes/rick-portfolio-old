@@ -19,6 +19,9 @@ import { ClipComponent } from './components/clip/clip.component';
 // Services
 import { ProjectsService } from './services/projects.service';
 
+// Pipes
+import { SafeResourceUrlPipe } from './pipes/safe-resource-url.pipe';
+
 
 @NgModule({
   declarations: [
@@ -30,6 +33,7 @@ import { ProjectsService } from './services/projects.service';
     HeaderComponent,
     ProjectComponent,
     ClipComponent,
+    SafeResourceUrlPipe,
   ],
   imports: [
     BrowserModule,

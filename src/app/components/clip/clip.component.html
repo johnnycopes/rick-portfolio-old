@@ -11,7 +11,7 @@
     *ngFor="let clip of this.project.clips"
   >
     <div class="clip__embed-container">
-      <iframe [src]="clip.link" 
+      <iframe [src]="clip.url | safeResourceUrl" 
         frameborder='0' 
         webkitAllowFullScreen 
         mozallowfullscreen 

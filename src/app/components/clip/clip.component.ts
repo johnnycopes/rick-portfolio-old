@@ -29,9 +29,6 @@ export class ClipComponent implements OnInit {
   getProject(): void {
     const projectID: number = Number(this.route.snapshot.paramMap.get('id')); // grab project ID from the URL
     this.project = this.projectsService.getProject(projectID);
-    this.project.clips.forEach((clip) => {
-      clip.link = this.sanitizer.bypassSecurityTrustResourceUrl(`https://player.vimeo.com/video/${clip.id}`);
-    });
   }
 
   goBack(): void {
