@@ -9,48 +9,18 @@
   background-repeat: no-repeat;
   transition: all 400ms ease-in-out;
   border: 1px solid $font-color;
+  background: url('http://via.placeholder.com/400x250') center no-repeat;
 
-  // &::after {
-  //   content: "";
-  //   top: 0;
-  //   left: 0;
-  //   position: absolute;
-  //   height: 100%;
-  //   width: 100%;
-  //   background: rgba(0,0,0,0.5);
-  //   transition: all 400ms ease-in-out;
-  //   z-index: 1;
-  // // }
-
-  &__menu {
-    top: auto;
+  &::after {
+    content: "";
+    top: 0;
     left: 0;
-    bottom: 0;
     position: absolute;
-    // color: $bg-color;
+    height: 100%;
     width: 100%;
-    text-align: center;
-    z-index: 2;
-    opacity: 0;
-    transform: translateY(100%);
-    transition: $fast-transition;
-
-    &:hover {
-      opacity: 1;
-      transform: translateY(0);
-    }
-
-    &-link {
-      display: block;
-      padding: 5px 0;
-      background: $font-color;
-      color: $bg-color;
-      transition: $fast-transition;
-
-      &:hover {
-        background: $action-color;
-      }
-    }
+    background: rgba(0,0,0,0.7);
+    transition: all 400ms ease-in-out;
+    z-index: 1;
   }
 
   &__splash {
@@ -59,18 +29,13 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-    // font-size: 1.1rem;
-    font-weight: 200;
+    font-weight: 100;
     text-align: center;
-    // color: $bg-color;
-    // opacity: 1;
-    // z-index: 2;
+    color: $bg-color;
+    position: relative;
+    opacity: 1;
+    z-index: 2;
     transition: all 400ms ease-in-out;
-
-    &:hover + .project__menu {
-      opacity: 1;
-      transform: translateY(0);
-    }
   }
 
   &__container {
@@ -80,5 +45,6 @@
 
   &__headline {
     margin-bottom: 1rem;
+    font-weight: 300;
   }
 }

@@ -1,9 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
+import { DomSanitizer } from '@angular/platform-browser';
 
 import { ProjectsService } from '../../services/projects.service';
 import { Project } from '../../shared/project.model';
+import { SafeResourceUrl } from '@angular/platform-browser/src/security/dom_sanitization_service';
 
 @Component({
   selector: 'app-clip',
@@ -17,6 +19,7 @@ export class ClipComponent implements OnInit {
     private route: ActivatedRoute,
     private location: Location,
     private projectsService: ProjectsService,
+    private sanitizer: DomSanitizer
   ) { }
 
   ngOnInit() {
@@ -24,8 +27,11 @@ export class ClipComponent implements OnInit {
   }
 
   getProject(): void {
-    const projectID: number = Number(this.route.snapshot.paramMap.get('id'));
+    const projectID: number = Number(this.route.snapshot.paramMap.get('id')); // grab project ID from the URL
     this.project = this.projectsService.getProject(projectID);
+    this.project.clips.forEach((clip) => {
+      clip.link = this.sanitizer.bypassSecurityTrustResourceUrl(`https://player.vimeo.com/video/${clip.id}`);
+    });
   }
 
   goBack(): void {
