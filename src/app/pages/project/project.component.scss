@@ -2,13 +2,29 @@
 
 .clip {
 
-  &__go-back {
-    margin-bottom: 2rem;
-  }
-
   &__header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+
+    &-info {
+      text-align: right;
+    }
+  }
+
+  &__headline {
+    font-weight: 300;
+  }
+
+  &__name {
+    margin-top: 2rem;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  &__video {
+    margin-bottom: 10rem;
   }
 
   &__embed-container {

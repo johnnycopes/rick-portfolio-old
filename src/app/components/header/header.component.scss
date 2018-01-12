@@ -24,13 +24,21 @@
   }
 
   &__item {
-    padding: 1rem 0;
     margin-left: 2rem;
+  }
+
+  &__link {
+    padding: 1rem 0;
     font-weight: 200;
 
     &--active {
       font-weight: 500;
       color: $action-color;
     }
+  }
+
+  &__bird {
+    position: relative;
+    top: 2px;
   }
 }

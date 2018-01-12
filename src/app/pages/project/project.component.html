@@ -1,11 +1,14 @@
 <div class="clip">
-  <a class="clip__go-back" 
-    (click)="goBack()">
-    back to work
-  </a>
   <div class="clip__header">
-    <h2>{{project.headline}}</h2>
-    <h2>{{project.title}}</h2>
+    <a class="clip__go-back btn hvr-shutter-out-horizontal"
+      (click)="goBack()"
+      >
+      back to work
+    </a>
+    <div class="clip__header-info">
+      <h2 class="clip__headline">{{project.headline}}</h2>
+      <h2 class="clip__title">{{project.title}}</h2>
+    </div>
   </div>
   <div class="clip__video"
     *ngFor="let clip of this.project.clips"
@@ -18,6 +21,6 @@
         allowFullScreen>
       </iframe>
     </div>
-    <h4>{{clip.name}}</h4>
+    <h3 class="clip__name">{{clip.name}}</h3>
   </div>
 </div>

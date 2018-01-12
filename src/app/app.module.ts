@@ -10,11 +10,11 @@ import { HomeComponent } from './pages/home/home.component';
 import { AboutComponent } from './pages/about/about.component';
 import { WorkComponent } from './pages/work/work.component';
 import { MiscComponent } from './pages/misc/misc.component';
+import { ProjectComponent } from './pages/project/project.component';
 
 // Components
 import { HeaderComponent } from './components/header/header.component';
-import { ProjectComponent } from './components/project/project.component';
-import { ClipComponent } from './components/clip/clip.component';
+import { ProjectTileComponent } from './components/project-tile/project-tile.component';
 
 // Services
 import { ProjectsService } from './services/projects.service';
@@ -30,9 +30,9 @@ import { SafeResourceUrlPipe } from './pipes/safe-resource-url.pipe';
     AboutComponent,
     WorkComponent,
     MiscComponent,
-    HeaderComponent,
     ProjectComponent,
-    ClipComponent,
+    HeaderComponent,
+    ProjectTileComponent,
     SafeResourceUrlPipe,
   ],
   imports: [

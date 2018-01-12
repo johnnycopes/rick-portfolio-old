@@ -20,15 +20,11 @@
     transition: transform 250ms ease-out;
   }
 
-  &:hover,
-  &:focus,
-  &:active {
+  &:hover {
     color: $bg-color;
   }
 
-  &:hover::before,
-  &:focus::before,
-  &:active::before {
+  &:hover::before {
     transform: scaleX(1);
   }
 }
