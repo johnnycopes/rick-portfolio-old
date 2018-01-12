@@ -9,7 +9,7 @@
   background-repeat: no-repeat;
   transition: all 400ms ease-in-out;
   border: 1px solid $font-color;
-  background: url('http://via.placeholder.com/400x250') center no-repeat;
+  background: url('http://via.placeholder.com/400x250') center center no-repeat;
 
   &::after {
     content: "";
