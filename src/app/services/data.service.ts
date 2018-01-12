@@ -1,9 +1,12 @@
 import { Injectable } from '@angular/core';
+
 import { Project } from '../shared/project.model';
 import { PROJECTS } from '../shared/project.data';
+import { Misc } from '../shared/misc.model';
+import { MISC } from '../shared/misc.data';
 
 @Injectable()
-export class ProjectsService {
+export class DataService {
 
   getProjects(): Project[] {
     return PROJECTS;
@@ -13,6 +16,9 @@ export class ProjectsService {
     return PROJECTS.filter(project => project.id === id)[0];
   }
 
-  constructor() { }
+  getMisc(): Misc {
+    return MISC;
+  }
 
+  constructor() { }
 }

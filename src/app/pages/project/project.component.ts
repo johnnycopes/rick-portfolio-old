@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
 
-import { ProjectsService } from '../../services/projects.service';
+import { DataService } from '../../services/data.service';
 import { Project } from '../../shared/project.model';
 
 @Component({
@@ -16,7 +16,7 @@ export class ProjectComponent implements OnInit {
   constructor(
     private route: ActivatedRoute,
     private location: Location,
-    private projectsService: ProjectsService
+    private dataService: DataService
   ) { }
 
   ngOnInit() {
@@ -25,7 +25,7 @@ export class ProjectComponent implements OnInit {
 
   getProject(): void {
     const projectID: number = Number(this.route.snapshot.paramMap.get('id')); // grab project ID from the URL
-    this.project = this.projectsService.getProject(projectID);
+    this.project = this.dataService.getProject(projectID);
   }
 
   goBack(): void {

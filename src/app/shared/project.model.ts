@@ -1,9 +1,12 @@
-export class Project {
-  constructor(
-    public id: number,
-    public headline: string,
-    public title: string,
-    public path: string,
-    public clips: { name: string, url: string }[]
-  ) { }
+interface Clip {
+  name: string;
+  url: string;
+}
+
+export interface Project {
+  id: number;
+  headline: string;
+  title: string;
+  path: string;
+  clips: Clip[];
 }

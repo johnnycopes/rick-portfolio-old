@@ -17,7 +17,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { ProjectTileComponent } from './components/project-tile/project-tile.component';
 
 // Services
-import { ProjectsService } from './services/projects.service';
+import { DataService } from './services/data.service';
 
 // Pipes
 import { SafeResourceUrlPipe } from './pipes/safe-resource-url.pipe';
@@ -39,7 +39,7 @@ import { SafeResourceUrlPipe } from './pipes/safe-resource-url.pipe';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [ProjectsService],
-  bootstrap: [AppComponent]
+  providers: [ DataService ],
+  bootstrap: [ AppComponent ]
 })
 export class AppModule { }
