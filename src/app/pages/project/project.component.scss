@@ -1,6 +1,6 @@
 @import '~scss/variables';
 
-.clip {
+.project {
 
   &__header {
     display: flex;
@@ -28,6 +28,7 @@
   }
 
   &__embed-container {
+    background: url(/assets/loading.gif) center center no-repeat;
     position: relative;
     padding-bottom: 56.25%;
     height: 0;

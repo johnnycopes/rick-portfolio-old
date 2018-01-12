@@ -1,26 +1,26 @@
-<div class="clip">
-  <div class="clip__header">
-    <a class="clip__go-back btn hvr-shutter-out-horizontal"
+<div class="project">
+  <div class="project__header">
+    <a class="project__go-back btn hvr-shutter-out-horizontal"
       (click)="goBack()"
       >
       back to work
     </a>
-    <div class="clip__header-info">
-      <h2 class="clip__headline">{{project.headline}}</h2>
-      <h2 class="clip__title">{{project.title}}</h2>
+    <div class="project__header-info">
+      <h2 class="project__headline">{{project.headline}}</h2>
+      <h2 class="project__title">{{project.title}}</h2>
     </div>
   </div>
-  <div class="clip__video"
-    *ngFor="let clip of this.project.clips"
+  <div class="project__video"
+    *ngFor="let project of this.project.clips"
   >
-    <div class="clip__embed-container">
-      <iframe [src]="clip.url | safeResourceUrl" 
+    <div class="project__embed-container">
+      <iframe [src]="project.url | safeResourceUrl" 
         frameborder='0' 
         webkitAllowFullScreen 
         mozallowfullscreen 
         allowFullScreen>
       </iframe>
     </div>
-    <h3 class="clip__name">{{clip.name}}</h3>
+    <h3 class="project__name">{{project.name}}</h3>
   </div>
 </div>
