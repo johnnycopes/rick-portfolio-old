@@ -20,19 +20,11 @@ export const MISC: Misc = {
     },
     {
       name: 'Le Meme',
-      url: 'http://wtfismikewearing.tumblr.com/'
-    },
-    {
-      name: 'WTF is Mike Wearing',
-      url: 'http://wtfismikewearing.tumblr.com/'
-    },
-    {
-      name: 'WTF is Mike Wearing',
-      url: 'http://wtfismikewearing.tumblr.com/'
+      url: 'http://www.lememe.com'
     },
     {
       name: 'Fake Updates',
-      url: 'http://fakeupdate.net/'
+      url: 'http://fakeupdate.net'
     },
     {
       name: 'Literally Unbelievable',
@@ -52,7 +44,7 @@ export const MISC: Misc = {
     },
     {
       name: 'The Colour Clock',
-      url: 'http://www.dontevenreply.com'
+      url: 'http://thecolourclock.co.uk'
     },
     {
       name: 'Fancy',
@@ -76,7 +68,7 @@ export const MISC: Misc = {
     },
     {
       name: 'Space Jam',
-      url: 'https://www.warnerbros.com/archive/spacejam/movie/jam.htm'
+      url: 'https://www.warnerbros.com/archive/spacejam/movie/jam.html'
     },
   ],
   songs: [

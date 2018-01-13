@@ -1,3 +1,31 @@
-<p>
-  misc works!
-</p>
+<div class="misc">
+  <h2 class="misc__header">Things that I like:</h2>
+  <div class="misc__links">
+    <a class="misc__link"
+      [href]="website.url"
+      target="_blank"
+      >
+      {{website.name}}
+    </a>
+    <a class="misc__link"
+      [href]="song.url"
+      target="_blank"
+      >
+      {{song.artist}} — {{song.name}}
+    </a>
+    <a class="misc__link"
+      [href]="instagram.url"
+      target="_blank"
+      >
+      {{instagram.user}}
+    </a>
+  </div>
+  <button class="misc__btn"
+    (click)="getRandomLinks()"
+  >
+    <img class="misc__btn-img"
+      src="assets/img/khaled.jpg" 
+      alt="Click here for another one" 
+    />
+  </button>
+</div>

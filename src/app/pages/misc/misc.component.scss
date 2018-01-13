@@ -1,0 +1,38 @@
+@import '~scss/variables';
+
+.misc {
+
+  &__header {
+    margin-bottom: 5rem;
+  }
+
+  &__links {
+    margin-bottom: 5rem;
+  }
+
+  &__link {
+    margin-bottom: 3rem;
+  }
+
+  &__btn {
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 1rem;
+    outline: none;
+    transition: $fast-transition;
+    border: 1px solid $light-color;
+
+    &:hover {
+      border: 1px solid $action-color;
+      background: $action-color;
+    }
+
+    &:active {
+      box-shadow: none;
+    }
+
+    &-img {
+      height: 200px;
+    }
+  }
+}

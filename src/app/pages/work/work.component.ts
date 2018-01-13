@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+
 import { ProjectComponent } from '../../pages/project/project.component';
 import { Project } from '../../shared/project.model';
-import { DataService } from '../../services/data.service';
+import { ProjectService } from '../../services/project.service';
 
 @Component({
   selector: 'app-work',
@@ -11,13 +12,13 @@ import { DataService } from '../../services/data.service';
 export class WorkComponent implements OnInit {
   projects: Project[];
 
-  constructor(private dataService: DataService) { }
+  constructor(private projectService: ProjectService) { }
 
   ngOnInit() {
     this.getProjects();
   }
 
   getProjects(): void {
-    this.projects = this.dataService.getProjects();
+    this.projects = this.projectService.getProjects();
   }
 }

@@ -1,15 +1,15 @@
-interface Website {
+export interface Website {
   name: string;
   url: string;
 }
 
-interface Song {
+export interface Song {
   name: string;
   artist: string;
   url: string;
 }
 
-interface Instagram {
+export interface Instagram {
   user: string;
   url: string;
 }
