@@ -10,8 +10,7 @@ export class MiscService {
     return MISC;
   }
 
-  // TODO: make these types accept specific arrays/interfaces
-  getRandomLink(arr: any, currentLink: any) {
+  getRandomLink<T>(arr: T[], currentLink: T): T {
     let randomNumber = this.generateRandomNumber(arr.length);
     while (randomNumber === arr.indexOf(currentLink)) {
       randomNumber = this.generateRandomNumber(arr.length);
