@@ -1,0 +1,20 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  &__name {
+    margin-bottom: 3rem;
+  }
+
+  &__links {
+    display: flex;
+    max-width: 960px;
+  }
+
+  &__link {
+    margin: 0 1rem;
+  }
+}

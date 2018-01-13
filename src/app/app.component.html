@@ -1,4 +1,9 @@
-<app-header></app-header>
-<div class="container">
+<app-header *ngIf="!this.router.isActive('/', true)"></app-header>
+
+<app-home *ngIf="this.router.isActive('/', true)"></app-home>
+
+<div class="container"
+  *ngIf="!this.router.isActive('/', true)"
+  >
   <router-outlet></router-outlet>
 </div>

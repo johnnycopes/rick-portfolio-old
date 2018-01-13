@@ -1,10 +1,19 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
-  title = 'Rick\'s new site';
+export class AppComponent implements OnInit {
+  isHomePage: string;
+
+  constructor(private router: Router) { }
+
+  ngOnInit() {
+    // this.router.isActive('/about');
+    console.log(this.router.isActive('/', true));
+  }
+
 }

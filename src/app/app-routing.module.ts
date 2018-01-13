@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
+import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { WorkComponent } from './pages/work/work.component';
 import { AboutComponent } from './pages/about/about.component';
@@ -12,7 +13,6 @@ const routes: Routes = [
   { path: 'work', component: WorkComponent },
   { path: 'about', component: AboutComponent },
   { path: 'misc', component: MiscComponent },
-  { path: '', component: HomeComponent },
   { path: '**', redirectTo: '', pathMatch: 'full' }, // wildcard route (default/no match)
 ];
 
