@@ -11,10 +11,12 @@
 
   &__links {
     display: flex;
-    max-width: 960px;
+    justify-content: space-between;
+    max-width: 500px;
+    width: 100%;
   }
 
   &__link {
-    margin: 0 1rem;
+    width: 32%;
   }
 }

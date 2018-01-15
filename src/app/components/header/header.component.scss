@@ -23,6 +23,11 @@
     padding: 1rem;
     font-weight: 200;
     position: relative;
+    transition: $fast-transition;
+
+    &:hover {
+      color: $action-color;
+    }
 
     // &::after {
     //   content: "";
