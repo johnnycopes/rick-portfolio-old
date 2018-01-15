@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -6,14 +6,8 @@ import { Router } from '@angular/router';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent implements OnInit {
+export class AppComponent {
   isHomePage: string;
 
-  constructor(private router: Router) { }
-
-  ngOnInit() {
-    // this.router.isActive('/about');
-    console.log(this.router.isActive('/', true));
-  }
-
+  constructor(public router: Router) { }
 }
