@@ -13,6 +13,7 @@ const routes: Routes = [
   { path: 'work', component: WorkComponent },
   { path: 'about', component: AboutComponent },
   { path: 'misc', component: MiscComponent },
+  { path: '', component: HomeComponent },
   { path: '**', redirectTo: '', pathMatch: 'full' }, // wildcard route (default/no match)
 ];
 

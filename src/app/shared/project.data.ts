@@ -6,7 +6,7 @@ export const PROJECTS: Project[] = [
     headline: 'Microsoft',
     title: 'Spread Harmony',
     path: 'resized_screenshots/Spread-Harmony',
-    clips: [
+    videos: [
       {
         name: 'TV',
         url: 'https://player.vimeo.com/video/201600392'
@@ -22,7 +22,7 @@ export const PROJECTS: Project[] = [
     headline: 'Windows 10',
     title: 'Newest Users',
     path: 'resized_screenshots/Newest-Users',
-    clips: [
+    videos: [
       {
         name: 'TV',
         url: 'https://player.vimeo.com/video/199377033'
@@ -38,7 +38,7 @@ export const PROJECTS: Project[] = [
     headline: 'Windows 10',
     title: 'Bug Chicks',
     path: 'resized_screenshots/Bug-Chicks',
-    clips: [
+    videos: [
       {
         name: 'TV',
         url: 'https://player.vimeo.com/video/199376306'
@@ -50,7 +50,7 @@ export const PROJECTS: Project[] = [
     headline: 'Surface Pro 4',
     title: 'Snapchat Eurotrip',
     path: 'resized_screenshots/Snapchat-Eurotrip',
-    clips: [
+    videos: [
       {
         name: 'Online Video',
         url: 'https://player.vimeo.com/video/199379527'
@@ -62,7 +62,7 @@ export const PROJECTS: Project[] = [
     headline: 'Surface Book',
     title: 'Tim Flach',
     path: 'resized_screenshots/Tim-Flach',
-    clips: [
+    videos: [
       {
         name: 'TV',
         url: 'https://player.vimeo.com/video/199376398'
@@ -74,7 +74,7 @@ export const PROJECTS: Project[] = [
     headline: 'Microsoft',
     title: 'Girls Do Science',
     path: 'resized_screenshots/Girls-Do-Science',
-    clips: [
+    videos: [
       {
         name: 'Longform Video',
         url: 'https://player.vimeo.com/video/153027090'
@@ -90,7 +90,7 @@ export const PROJECTS: Project[] = [
     headline: 'Microsoft',
     title: 'Digital',
     path: 'screenshots/Digital',
-    clips: [
+    videos: [
       {
         name: 'Digital Sizzle Video',
         url: 'https://player.vimeo.com/video/199892901'
@@ -106,7 +106,7 @@ export const PROJECTS: Project[] = [
     headline: 'Intel',
     title: 'Simon Jacomet',
     path: 'screenshots/Simon-Jacomet',
-    clips: [
+    videos: [
       {
         name: 'TV',
         url: 'https://player.vimeo.com/video/199379408'
@@ -118,7 +118,7 @@ export const PROJECTS: Project[] = [
     headline: 'Surface Book',
     title: 'Times Square Takeover',
     path: 'screenshots/Times-Square-Takeover',
-    clips: [
+    videos: [
       {
         name: 'Nasdaq',
         url: 'https://player.vimeo.com/video/199725283'
@@ -134,7 +134,7 @@ export const PROJECTS: Project[] = [
     headline: 'Lenovo',
     title: 'Yasmin Belo-Osagie',
     path: 'screenshots/Yasmin-Belo-Osagie',
-    clips: [
+    videos: [
       {
         name: 'TV',
         url: 'https://player.vimeo.com/video/201602899'
@@ -146,7 +146,7 @@ export const PROJECTS: Project[] = [
     headline: 'Surface Pro 4',
     title: 'Steven Mancusi',
     path: 'screenshots/Steven-Mancusi',
-    clips: [
+    videos: [
       {
         name: 'TV',
         url: 'https://player.vimeo.com/video/199375987'
@@ -158,7 +158,7 @@ export const PROJECTS: Project[] = [
   //   headline: 'Personal',
   //   title: 'Photography',
   //   path: 'photography/Lucerne-Lake',
-  //   clips: [
+  //   videos: [
   //     {
   //       name: 'View all',
   //       link: 'photography'

@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 // App
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 // Pages
 import { HomeComponent } from './pages/home/home.component';
@@ -38,7 +39,8 @@ import { SafeResourceUrlPipe } from './pipes/safe-resource-url.pipe';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [ ProjectService, MiscService ],
   bootstrap: [ AppComponent ]

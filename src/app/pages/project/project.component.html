@@ -11,16 +11,16 @@
     </div>
   </div>
   <div class="project__video"
-    *ngFor="let project of this.project.clips"
-  >
+    *ngFor="let video of project.videos"
+    >
     <div class="project__embed-container">
-      <iframe [src]="project.url | safeResourceUrl" 
-        frameborder='0' 
-        webkitAllowFullScreen 
-        mozallowfullscreen 
+      <iframe [src]="video.url | safeResourceUrl"
+        frameborder='0'
+        webkitAllowFullScreen
+        mozallowfullscreen
         allowFullScreen>
       </iframe>
     </div>
-    <h3 class="project__name">{{project.name}}</h3>
+    <h3 class="project__name">{{video.name}}</h3>
   </div>
 </div>

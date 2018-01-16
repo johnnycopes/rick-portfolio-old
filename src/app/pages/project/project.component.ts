@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { Router, NavigationEnd, ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
 
 import { ProjectService } from '../../services/project.service';
@@ -12,8 +12,11 @@ import { Project } from '../../shared/project.model';
 })
 export class ProjectComponent implements OnInit {
   project: Project;
+  private lastPoppedUrl: string;
+  private yScrollStack: number[] = [];
 
   constructor(
+    private router: Router,
     private route: ActivatedRoute,
     private location: Location,
     private projectService: ProjectService
@@ -21,6 +24,15 @@ export class ProjectComponent implements OnInit {
 
   ngOnInit() {
     this.getProject();
+
+    // Force scroll to top of page
+    // https://stackoverflow.com/questions/39601026/angular-2-scroll-to-top-on-route-change/42671138
+    this.router.events.subscribe((evt) => {
+      if (!(evt instanceof NavigationEnd)) {
+        return;
+      }
+      window.scrollTo(0, 0);
+    });
   }
 
   getProject(): void {

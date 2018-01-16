@@ -1,9 +1,8 @@
-<app-header *ngIf="!this.router.isActive('/', true)"></app-header>
-
-<app-home *ngIf="this.router.isActive('/', true)"></app-home>
-
-<div class="container"
-  *ngIf="!this.router.isActive('/', true)"
-  >
-  <router-outlet></router-outlet>
+<div class="app">
+  <app-header *ngIf="!this.router.isActive('/', true)"></app-header>
+  <main class="app__container"
+    [@animateRoutes]="getPage(appOutlet)"
+    >
+    <router-outlet #appOutlet="outlet"></router-outlet>
+  </main>
 </div>
