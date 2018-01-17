@@ -14,7 +14,7 @@ html {
 body {
   margin: 0;
   font-size: 2rem;
-  font-weight: 100;
+  font-weight: 300;
   font-family: $font-stack;
   min-height: 100vh;
 }
@@ -30,8 +30,12 @@ a:active {
   text-decoration: none;
 }
 
-h1, h2, h3, h4 {
+h1, h2 {
   font-weight: 100;
+}
+
+h3, h4 {
+  font-weight: 300;
 }
 
 h1 { font-size: 3.157em; }
@@ -44,7 +48,7 @@ li {
 }
 
 .btn {
-  padding: 2rem 4rem;
+  padding: 1.5rem 3rem;
   text-align: center;
   display: block;
   color: $font-color;

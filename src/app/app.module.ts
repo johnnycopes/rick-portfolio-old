@@ -22,7 +22,7 @@ import { ProjectService } from './services/project.service';
 import { MiscService } from './services/misc.service';
 
 // Pipes
-import { SafeResourceUrlPipe } from './pipes/safe-resource-url.pipe';
+import { SafePipe } from './pipes/safe.pipe';
 
 
 @NgModule({
@@ -35,7 +35,7 @@ import { SafeResourceUrlPipe } from './pipes/safe-resource-url.pipe';
     ProjectComponent,
     HeaderComponent,
     ProjectTileComponent,
-    SafeResourceUrlPipe,
+    SafePipe,
   ],
   imports: [
     BrowserModule,

@@ -7,6 +7,6 @@ export interface Project {
   id: number;
   headline: string;
   title: string;
-  path: string;
+  thumbnail: string;
   videos: Video[];
 }

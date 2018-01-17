@@ -18,17 +18,20 @@
     cursor: pointer;
     border-radius: 5px;
     padding: 1rem;
+    position: relative;
     outline: none;
-    transition: $fast-transition;
+    transition: $medium-transition;
     border: 1px solid $light-color;
 
     &:hover {
       border: 1px solid $action-color;
       background: $action-color;
+      transform: $scale;
     }
 
     &:active {
       box-shadow: none;
+      transform: translateY(4px) $scale;
     }
 
     &-img {

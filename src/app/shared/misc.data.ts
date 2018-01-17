@@ -70,6 +70,26 @@ export const MISC: Misc = {
       name: 'Space Jam',
       url: 'https://www.warnerbros.com/archive/spacejam/movie/jam.html'
     },
+    {
+      name: 'La Colombe',
+      url: 'https://www.lacolombe.com/'
+    },
+    {
+      name: 'Karasu',
+      url: 'http://www.karasubk.com/'
+    },
+    {
+      name: 'Clickhole',
+      url: 'http://www.clickhole.com/'
+    },
+    {
+      name: 'Graphic Burger',
+      url: 'https://graphicburger.com/'
+    },
+    {
+      name: 'The Noun Project',
+      url: 'https://thenounproject.com/'
+    },
   ],
   songs: [
     {
@@ -132,6 +152,42 @@ export const MISC: Misc = {
     {
       user: '@MillerHighLife',
       url: 'https://www.instagram.com/millerhighlife'
+    },
+    {
+      user: '@adamlucasnyc',
+      url: 'https://www.instagram.com/adamlucasNYC'
+    },
+    {
+      user: '@emrata',
+      url: 'https://www.instagram.com/emrata'
+    },
+    {
+      user: '@143is',
+      url: 'https://www.instagram.com/143is'
+    },
+    {
+      user: '@laflare1017',
+      url: 'https://www.instagram.com/laflare1017'
+    },
+    {
+      user: '@donaldtrumpdoingthings',
+      url: 'https://www.instagram.com/donaldtrumpdoingthings'
+    },
+    {
+      user: '@beefcake_boys_soaps',
+      url: 'https://www.instagram.com/beefcake_boys_soaps'
+    },
+    {
+      user: '@fuckadvertisements',
+      url: 'https://www.instagram.com/fuckadvertisements'
+    },
+    {
+      user: '@subwaycreatures',
+      url: 'https://www.instagram.com/subwaycreatures'
+    },
+    {
+      user: '@humansofnylol',
+      url: 'https://www.instagram.com/humansofnylol'
     }
   ]
 };

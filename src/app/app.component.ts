@@ -9,6 +9,7 @@ import {
   group,
   animateChild
 } from '@angular/animations';
+import { ActivatedRoute } from '@angular/router/src/router_state';
 
 @Component({
   selector: 'app-root',
@@ -16,7 +17,7 @@ import {
   styleUrls: ['./app.component.scss'],
   animations: [
     trigger('animateRoutes', [
-      transition('*<=>*', [
+      transition('* <=> *', [
         group([
           query(
             ':enter',

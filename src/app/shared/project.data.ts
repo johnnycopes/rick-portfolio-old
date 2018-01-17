@@ -5,7 +5,7 @@ export const PROJECTS: Project[] = [
     id: 1,
     headline: 'Microsoft',
     title: 'Spread Harmony',
-    path: 'resized_screenshots/Spread-Harmony',
+    thumbnail: 'Spread-Harmony',
     videos: [
       {
         name: 'TV',
@@ -21,7 +21,7 @@ export const PROJECTS: Project[] = [
     id: 2,
     headline: 'Windows 10',
     title: 'Newest Users',
-    path: 'resized_screenshots/Newest-Users',
+    thumbnail: 'Newest-Users',
     videos: [
       {
         name: 'TV',
@@ -37,7 +37,7 @@ export const PROJECTS: Project[] = [
     id: 3,
     headline: 'Windows 10',
     title: 'Bug Chicks',
-    path: 'resized_screenshots/Bug-Chicks',
+    thumbnail: 'Bug-Chicks',
     videos: [
       {
         name: 'TV',
@@ -49,7 +49,7 @@ export const PROJECTS: Project[] = [
     id: 4,
     headline: 'Surface Pro 4',
     title: 'Snapchat Eurotrip',
-    path: 'resized_screenshots/Snapchat-Eurotrip',
+    thumbnail: 'Snapchat-Eurotrip',
     videos: [
       {
         name: 'Online Video',
@@ -61,7 +61,7 @@ export const PROJECTS: Project[] = [
     id: 5,
     headline: 'Surface Book',
     title: 'Tim Flach',
-    path: 'resized_screenshots/Tim-Flach',
+    thumbnail: 'Tim-Flach',
     videos: [
       {
         name: 'TV',
@@ -73,7 +73,7 @@ export const PROJECTS: Project[] = [
     id: 6,
     headline: 'Microsoft',
     title: 'Girls Do Science',
-    path: 'resized_screenshots/Girls-Do-Science',
+    thumbnail: 'Girls-Do-Science',
     videos: [
       {
         name: 'Longform Video',
@@ -89,7 +89,7 @@ export const PROJECTS: Project[] = [
     id: 7,
     headline: 'Microsoft',
     title: 'Digital',
-    path: 'screenshots/Digital',
+    thumbnail: 'Digital',
     videos: [
       {
         name: 'Digital Sizzle Video',
@@ -105,7 +105,7 @@ export const PROJECTS: Project[] = [
     id: 8,
     headline: 'Intel',
     title: 'Simon Jacomet',
-    path: 'screenshots/Simon-Jacomet',
+    thumbnail: 'Simon-Jacomet',
     videos: [
       {
         name: 'TV',
@@ -117,7 +117,7 @@ export const PROJECTS: Project[] = [
     id: 9,
     headline: 'Surface Book',
     title: 'Times Square Takeover',
-    path: 'screenshots/Times-Square-Takeover',
+    thumbnail: 'Times-Square-Takeover',
     videos: [
       {
         name: 'Nasdaq',
@@ -133,7 +133,7 @@ export const PROJECTS: Project[] = [
     id: 10,
     headline: 'Lenovo',
     title: 'Yasmin Belo-Osagie',
-    path: 'screenshots/Yasmin-Belo-Osagie',
+    thumbnail: 'Yasmin-Belo-Osagie',
     videos: [
       {
         name: 'TV',
@@ -145,7 +145,7 @@ export const PROJECTS: Project[] = [
     id: 11,
     headline: 'Surface Pro 4',
     title: 'Steven Mancusi',
-    path: 'screenshots/Steven-Mancusi',
+    thumbnail: 'Steven-Mancusi',
     videos: [
       {
         name: 'TV',

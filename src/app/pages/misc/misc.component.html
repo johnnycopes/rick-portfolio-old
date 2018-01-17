@@ -1,6 +1,8 @@
 <div class="misc">
-  <h2 class="misc__header">things that I like:</h2>
-  <div class="misc__links">
+  <h2 class="misc__header">Things that I like:</h2>
+  <div class="misc__links"
+    [@fadeIn]="state"
+    >
     <a class="misc__link"
       [href]="website.url"
       target="_blank"
@@ -24,8 +26,8 @@
     (click)="getRandomLinks()"
   >
     <img class="misc__btn-img"
-      src="assets/img/khaled.jpg" 
-      alt="Click here for another one" 
+      src="assets/img/khaled.jpg"
+      alt="Click here for another one"
     />
   </button>
 </div>
