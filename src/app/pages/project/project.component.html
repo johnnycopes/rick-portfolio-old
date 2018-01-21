@@ -32,11 +32,6 @@
   <div class="project__slideshow"
     *ngIf="project.photos"
     >
-    <!-- <img class="project__arrow project__arrow-left"
-      (click)="decreasePhotoIndex()"
-      src="assets/img/arrow-left.svg"
-      alt="Left arrow"
-    /> -->
     <svg class="project__arrow project__arrow-left"
       (click)="decreasePhotoIndex()"
       xmlns="http://www.w3.org/2000/svg"
@@ -47,12 +42,14 @@
       xml:space="preserve">
       <g>
         <polyline
-          fill="none" stroke="#212121" stroke-width="1" stroke-linejoin="bevel" stroke-miterlimit="10" points="37,15 20,32    37,49  "/>
+          fill="none" stroke="#212121" stroke-width="1" stroke-linejoin="bevel" stroke-miterlimit="10" points="37,15 20,32 37,49"
+          />
       </g>
     </svg>
     <img class="project__photo"
       src="assets/img/photography/{{project.photos[photoIndex]}}.jpg"
-    />
+      [@fadeIn]="state"
+      />
     <svg class="project__arrow project__arrow-right"
       (click)="increasePhotoIndex()"
       xmlns="http://www.w3.org/2000/svg"
@@ -62,7 +59,9 @@
       enable-background="new 0 0 64 64"
       xml:space="preserve">
       <g>
-        <polyline fill="none" stroke="#212121" stroke-width="1" stroke-linejoin="bevel" stroke-miterlimit="10" points="27,15 44,32    27,49  "/>
+        <polyline 
+          fill="none" stroke="#212121" stroke-width="1" stroke-linejoin="bevel" stroke-miterlimit="10" points="27,15 44,32 27,49"
+          />
       </g>
     </svg>
   </div>

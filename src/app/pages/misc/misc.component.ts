@@ -32,7 +32,7 @@ export class MiscComponent implements OnInit {
   website: Website;
   song: Song;
   instagram: Instagram;
-  state = 'normal';
+  state: boolean;
 
   constructor(private miscService: MiscService) { }
 
@@ -46,7 +46,7 @@ export class MiscComponent implements OnInit {
   }
 
   getRandomLinks(): void {
-    this.state === 'normal' ? this.state = 'abnormal' : this.state = 'normal';
+    this.state === true ? this.state = false : this.state = true;
     this.website = this.miscService.getRandomLink(this.misc.websites, this.website);
     this.song = this.miscService.getRandomLink(this.misc.songs, this.song);
     this.instagram = this.miscService.getRandomLink(this.misc.instagrams, this.instagram);
