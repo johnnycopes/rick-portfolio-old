@@ -8,5 +8,6 @@ export interface Project {
   headline: string;
   title: string;
   thumbnail: string;
-  videos: Video[];
+  videos?: Video[];
+  photos?: string[];
 }

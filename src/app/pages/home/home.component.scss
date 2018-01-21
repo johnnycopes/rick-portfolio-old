@@ -26,6 +26,13 @@
   }
 
   &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 32%;
+  }
+
+  &__bird {
+    width: 25px;
   }
 }

@@ -28,26 +28,18 @@
       color: $action-color;
     }
 
-    // &::after {
-    //   content: "";
-    //   position: absolute;
-    //   bottom: 0;
-    //   left: 0;
-    //   border-bottom: 1px solid $font-color;
-    //   width: 100%;
-    //   visibility: hidden;
-    //   transform: scaleX(0);
-    //   transition: $fast-transition;
-    // }
-
-    // &:hover::after {
-    //   visibility: visible;
-    //   transform: scaleX(1);
-    // }
-
     &--active {
       font-weight: 400;
       color: $action-color;
+    }
+
+    &-divider:hover {
+      color: $font-color;
+    }
+
+    &-misc {
+      padding-top: 0;
+      padding-bottom: 0;
     }
   }
 
@@ -57,8 +49,8 @@
   }
 
   &__bird {
-    padding-right: 0;
+    width: 25px;
     position: relative;
-    top: 2px;
+    top: 3px;
   }
 }

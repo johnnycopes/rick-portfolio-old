@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, NavigationEnd, ActivatedRoute } from '@angular/router';
-import { Location } from '@angular/common';
 
 import { ProjectService } from '../../services/project.service';
 import { Project } from '../../shared/project.model';
@@ -12,13 +11,11 @@ import { Project } from '../../shared/project.model';
 })
 export class ProjectComponent implements OnInit {
   project: Project;
-  private lastPoppedUrl: string;
-  private yScrollStack: number[] = [];
+  photoIndex = 0;
 
   constructor(
     private router: Router,
     private route: ActivatedRoute,
-    private location: Location,
     private projectService: ProjectService
   ) { }
 
@@ -40,8 +37,15 @@ export class ProjectComponent implements OnInit {
     this.project = this.projectService.getProject(projectID);
   }
 
-  goBack(): void {
-    this.location.back();
+  decreasePhotoIndex(): void {
+    if (this.project.photos) {
+      this.photoIndex - 1 < 0 ? this.photoIndex = this.project.photos.length - 1 : this.photoIndex--;
+    }
   }
 
+  increasePhotoIndex(): void {
+    if (this.project.photos) {
+      this.photoIndex + 1 > this.project.photos.length - 1 ? this.photoIndex = 0 : this.photoIndex++;
+    }
+  }
 }

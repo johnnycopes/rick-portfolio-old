@@ -152,17 +152,29 @@ export const PROJECTS: Project[] = [
         url: 'https://player.vimeo.com/video/199375987'
       }
     ]
+  },
+  {
+    id: 12,
+    headline: 'Personal',
+    title: 'Photography',
+    thumbnail: 'field',
+    photos: [
+      'Barcelona-2011',
+      'field',
+      'Fountain-2011',
+      'Italy',
+      'Jeep-reflection-06',
+      'Library-21',
+      'Library-27', 'Library-46',
+      'Lucerne-Lake',
+      'millenial-bridge',
+      'Orono-at-night',
+      'Paris-2010', 'surface-uncanny-0',
+      'surface-uncanny-1',
+      'surface-uncanny-2',
+      'surface-uncanny-3',
+      'surface-uncanny-4',
+      'surface-uncanny-6'
+    ]
   }
-  // {
-  //   id: 12,
-  //   headline: 'Personal',
-  //   title: 'Photography',
-  //   path: 'photography/Lucerne-Lake',
-  //   videos: [
-  //     {
-  //       name: 'View all',
-  //       link: 'photography'
-  //     }
-  //   ]
-  // }
 ];
