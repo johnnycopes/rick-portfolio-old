@@ -14,19 +14,19 @@ import { Project } from '../../shared/project.model';
 @Component({
   selector: 'app-project',
   templateUrl: './project.component.html',
-  styleUrls: ['./project.component.scss'],
-  animations: [
-    trigger('fadeIn', [
-      transition('* <=> *', [
-        style({
-          opacity: 0
-        }),
-        animate('175ms ease-in', style({
-          opacity: 1
-        }))
-      ])
-    ])
-  ]
+  styleUrls: ['./project.component.scss']
+  // animations: [
+  //   trigger('fadeIn', [
+  //     transition('* <=> *', [
+  //       style({
+  //         opacity: 0
+  //       }),
+  //       animate('175ms ease-in', style({
+  //         opacity: 1
+  //       }))
+  //     ])
+  //   ])
+  // ]
 })
 export class ProjectComponent implements OnInit {
   project: Project;
