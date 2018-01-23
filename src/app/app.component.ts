@@ -30,7 +30,7 @@ import { ActivatedRoute } from '@angular/router/src/router_state';
           query(
             ':leave',
             [
-              style({ opacity: 0, position: 'absolute' })
+              style({ opacity: 0, height: 0, position: 'absolute' })
             ],
             { optional: true }
           ),

@@ -19,6 +19,7 @@ export class WorkComponent implements OnInit {
   }
 
   getProjects(): void {
-    this.projects = this.projectService.getProjects();
+    this.projectService.getProjects()
+      .subscribe(projects => this.projects = projects);
   }
 }

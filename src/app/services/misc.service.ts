@@ -1,4 +1,6 @@
 import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs/Observable';
+import { of } from 'rxjs/observable/of';
 
 import { Misc, Website, Song, Instagram } from '../shared/misc.model';
 import { MISC } from '../shared/misc.data';
@@ -6,8 +8,8 @@ import { MISC } from '../shared/misc.data';
 @Injectable()
 export class MiscService {
 
-  getMisc(): Misc {
-    return MISC;
+  getMisc(): Observable<Misc> {
+    return of(MISC);
   }
 
   getRandomLink<T>(arr: T[], currentLink: T): T {

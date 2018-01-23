@@ -41,20 +41,22 @@ export class ProjectComponent implements OnInit {
 
   ngOnInit() {
     this.getProject();
+    window.scrollTo(0, 0);
 
     // Force scroll to top of page
     // https://stackoverflow.com/questions/39601026/angular-2-scroll-to-top-on-route-change/42671138
-    this.router.events.subscribe((evt) => {
-      if (!(evt instanceof NavigationEnd)) {
-        return;
-      }
-      window.scrollTo(0, 0);
-    });
+    // this.router.events.subscribe((evt) => {
+    //   if (!(evt instanceof NavigationEnd)) {
+    //     return;
+    //   }
+    //   window.scrollTo(0, 0);
+    // });
   }
 
   getProject(): void {
     const projectID: number = Number(this.route.snapshot.paramMap.get('id')); // grab project ID from the URL
-    this.project = this.projectService.getProject(projectID);
+    this.projectService.getProject(projectID)
+      .subscribe(project => this.project = project);
   }
 
   decreasePhotoIndex(): void {

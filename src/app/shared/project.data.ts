@@ -155,6 +155,78 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 12,
+    headline: 'Office 365',
+    title: 'LovePop',
+    thumbnail: 'Steven-Mancusi',
+    videos: [
+      {
+        name: 'TV',
+        url: 'https://player.vimeo.com/video/250294019'
+      }
+    ]
+  },
+  {
+    id: 13,
+    headline: 'Microsoft Inking',
+    title: 'King of Inking',
+    thumbnail: 'Steven-Mancusi',
+    videos: [
+      {
+        name: 'Social Case Study',
+        url: 'https://player.vimeo.com/video/250293928'
+      }
+    ]
+  },
+  {
+    id: 14,
+    headline: 'Windows 10',
+    title: 'Toney Jackson',
+    thumbnail: 'Steven-Mancusi',
+    videos: [
+      {
+        name: 'TV',
+        url: 'https://player.vimeo.com/video/250293659'
+      }
+    ]
+  },
+  {
+    id: 15,
+    headline: 'Office 365',
+    title: 'Detroit Wallpaper',
+    thumbnail: 'Steven-Mancusi',
+    videos: [
+      {
+        name: 'TV',
+        url: 'https://player.vimeo.com/video/250293984'
+      }
+    ]
+  },
+  {
+    id: 16,
+    headline: 'McCann // M:United',
+    title: 'Holiday Card',
+    thumbnail: 'Steven-Mancusi',
+    videos: [
+      {
+        name: 'Online Video',
+        url: 'https://player.vimeo.com/video/250293825'
+      }
+    ]
+  },
+  {
+    id: 17,
+    headline: 'Windows 10',
+    title: 'Katie Button',
+    thumbnail: 'Steven-Mancusi',
+    videos: [
+      {
+        name: 'TV',
+        url: 'https://player.vimeo.com/video/250293749'
+      }
+    ]
+  },
+  {
+    id: 18,
     headline: 'Personal',
     title: 'Photography',
     thumbnail: 'field',

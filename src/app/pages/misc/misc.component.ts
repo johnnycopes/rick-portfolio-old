@@ -42,7 +42,8 @@ export class MiscComponent implements OnInit {
   }
 
   getMisc(): void {
-    this.misc = this.miscService.getMisc();
+    this.miscService.getMisc()
+      .subscribe(misc => this.misc = misc);
   }
 
   getRandomLinks(): void {
