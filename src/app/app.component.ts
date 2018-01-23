@@ -20,20 +20,11 @@ import { ActivatedRoute } from '@angular/router/src/router_state';
       transition('* <=> *', [
         group([
           query(
-            ':enter',
-            [
+            ':enter', [
               style({ opacity: 0 }),
-              animate( '250ms ease-in-out')
-            ],
-            {optional: true}
-          ),
-          query(
-            ':leave',
-            [
-              style({ opacity: 0, height: 0, position: 'absolute' })
-            ],
-            { optional: true }
-          ),
+              animate( '250ms ease-in-out', style({ opacity: 1 }))
+            ], {optional: true}
+          )
         ])
       ])
     ])
@@ -44,6 +35,6 @@ export class AppComponent {
   constructor(public router: Router) { }
 
   getPage(outlet: any) {
-    return outlet.activatedRouteData;
+    return outlet.activatedRouteData['page'];
   }
 }

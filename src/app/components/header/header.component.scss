@@ -33,14 +33,23 @@
       color: $action-color;
     }
 
-    &-divider:hover {
-      color: $font-color;
+    &-divider {
+      padding-right: 1.5rem;
+
+      &:hover {
+        color: $font-color;
+      }
     }
 
     &-misc {
       padding-top: 0;
       padding-bottom: 0;
     }
+  }
+
+  &__icon {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 
   &__name {

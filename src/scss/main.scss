@@ -30,11 +30,7 @@ a:active {
   text-decoration: none;
 }
 
-h1, h2 {
-  font-weight: 100;
-}
-
-h3, h4 {
+h1, h2, h3, h4 {
   font-weight: 300;
 }
 
@@ -48,7 +44,8 @@ li {
 }
 
 .btn {
-  padding: 1.5rem 3rem;
+  padding: 1.5rem 0;
+  width: 160px;
   text-align: center;
   display: block;
   color: $font-color;

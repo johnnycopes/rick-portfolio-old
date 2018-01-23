@@ -234,19 +234,23 @@ export const PROJECTS: Project[] = [
       'Barcelona-2011',
       'field',
       'Fountain-2011',
+      'img-4069',
       'Italy',
       'Jeep-reflection-06',
       'Library-21',
-      'Library-27', 'Library-46',
+      'Library-27',
+      'Library-46',
       'Lucerne-Lake',
       'millenial-bridge',
       'Orono-at-night',
-      'Paris-2010', 'surface-uncanny-0',
+      'Paris-2010',
+      'surface-uncanny-0',
       'surface-uncanny-1',
       'surface-uncanny-2',
       'surface-uncanny-3',
       'surface-uncanny-4',
-      'surface-uncanny-6'
+      'surface-uncanny-6',
+      'Worcester-MA-2009'
     ]
   }
 ];

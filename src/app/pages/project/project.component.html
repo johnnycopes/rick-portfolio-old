@@ -6,8 +6,8 @@
       back to work
     </a>
     <div class="project__header-info">
-      <h4 class="project__headline">{{project.headline}}</h4>
-      <h4 class="project__title">{{project.title}}</h4>
+      <p class="project__headline">{{project.headline}}</p>
+      <p class="project__title">{{project.title}}</p>
     </div>
   </div>
 
@@ -25,7 +25,7 @@
           allowFullScreen>
         </iframe>
       </div>
-      <h4 class="project__name">{{video.name}}</h4>
+      <p class="project__name">{{video.name}}</p>
     </div>
   </div>
 
@@ -42,14 +42,14 @@
       xml:space="preserve">
       <g>
         <polyline
-          fill="none" stroke="#212121" stroke-width="1" stroke-linejoin="bevel" stroke-miterlimit="10" points="37,15 20,32 37,49"
+          fill="none" stroke="#212121" stroke-width="1" stroke-linejoin="bevel"
+          stroke-miterlimit="10" points="37,15 20,32 37,49"
           />
       </g>
     </svg>
     <img class="project__photo"
       src="assets/img/photography/{{project.photos[photoIndex]}}.jpg"
       />
-      <!-- [@fadeIn]="state" -->
     <svg class="project__arrow project__arrow-right"
       (click)="increasePhotoIndex()"
       xmlns="http://www.w3.org/2000/svg"
@@ -59,8 +59,9 @@
       enable-background="new 0 0 64 64"
       xml:space="preserve">
       <g>
-        <polyline 
-          fill="none" stroke="#212121" stroke-width="1" stroke-linejoin="bevel" stroke-miterlimit="10" points="27,15 44,32 27,49"
+        <polyline
+          fill="none" stroke="#212121" stroke-width="1" stroke-linejoin="bevel"
+          stroke-miterlimit="10" points="27,15 44,32 27,49"
           />
       </g>
     </svg>

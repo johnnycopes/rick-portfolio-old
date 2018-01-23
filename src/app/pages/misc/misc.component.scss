@@ -16,15 +16,19 @@
 
   &__link {
     margin-bottom: 3rem;
+    transition: $fast-transition;
 
     &-name {
-      color: $action-color;
       font-weight: 400;
     }
 
     &:last-child {
       margin-bottom: 0;
     }
+  }
+
+  &__link:hover &__link-name {
+    color: $action-color;
   }
 
   &__btn {
