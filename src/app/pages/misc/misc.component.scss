@@ -35,6 +35,8 @@
     cursor: pointer;
     border-radius: 5px;
     padding: 1rem;
+    min-height: 250px; // make button the same width/height as image
+    min-width: 377px; // in case it's slow to load
     position: relative;
     outline: none;
     transition: $medium-transition;
