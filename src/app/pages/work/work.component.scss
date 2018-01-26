@@ -1,5 +1,14 @@
 .work {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  grid-template-columns: repeat(1, minmax(300px, 350px));
   grid-gap: 4rem;
+}
+
+@media screen and (min-width: 480px) {
+  // grid-gap:
+}
+
+@media screen and (min-width: 700px) {
+  grid-template-columns: 2
 }

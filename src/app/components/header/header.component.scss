@@ -9,6 +9,7 @@
   &__container {
     display: flex;
     justify-content: space-between;
+    width: 95%;
     max-width: 960px;
     margin: 0 auto;
   }
@@ -20,7 +21,7 @@
   }
 
   &__item {
-    padding: 1rem;
+    padding: 0.7rem;
     position: relative;
     transition: $fast-transition;
 
@@ -34,7 +35,7 @@
     }
 
     &-divider {
-      padding-right: 1.5rem;
+      padding-right: 1.4rem;
 
       &:hover {
         color: $font-color;
@@ -58,8 +59,22 @@
   }
 
   &__bird {
-    width: 25px;
+    width: 2rem;
     position: relative;
     top: 3px;
   }
+
+
+  @media screen and (min-width: 400px) {
+
+    &__item {
+      padding: 1rem;
+
+      &-divider {
+        padding-right: 1.5rem;
+      }
+    }
+
+  }
+
 }

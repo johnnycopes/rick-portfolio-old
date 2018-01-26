@@ -8,7 +8,7 @@
 }
 
 html {
-  font-size: 10px;
+  font-size: 7.5px;
 }
 
 body {
@@ -25,7 +25,6 @@ a:visited,
 a:hover,
 a:focus,
 a:active {
-  display: block;
   color: $font-color;
   text-decoration: none;
 }
@@ -44,12 +43,43 @@ li {
 }
 
 .btn {
-  padding: 1.5rem 0;
-  width: 160px;
-  text-align: center;
-  display: block;
+  width: 100px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: $font-color;
   border: 1px solid $font-color;
   // transition: $transition;
   cursor: pointer;
+}
+
+
+@media screen and (min-width: 350px) {
+
+  html {
+    font-size: 8px;
+  }
+
+}
+
+@media screen and (min-width: 400px) {
+
+  .btn {
+    width: 120px;
+    height: 48px;
+  }
+
+}
+
+@media screen and (min-width: 500px) {
+
+  html {
+    font-size: 10px;
+  }
+
+  .btn {
+    width: 160px;
+    height: 64px;
+  }
 }

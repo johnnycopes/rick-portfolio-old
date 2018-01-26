@@ -6,7 +6,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --prod",
-    "deploy": "ng build --prod && copy favicon.png dist && cd dist && move index.html 200.html && surge . --domain dont-tell-rick.surge.sh",
+    "deploy": "ng build --prod && copy favicon.png dist && cd dist && move index.html 200.html && surge . --domain https://dont-tell-rick.surge.sh",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

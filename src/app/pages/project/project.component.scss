@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 
     &-info {
       text-align: right;
@@ -24,12 +24,12 @@
   }
 
   &__video {
-    margin-bottom: 7rem;
+    margin-bottom: 5rem;
   }
 
   &__embed-container {
     background: url('/assets/img/loading.svg') center center no-repeat;
-    background-size: 100px;
+    background-size: 50px;
     position: relative;
     padding-bottom: 56.25%;
     height: 0;
@@ -84,6 +84,21 @@
 
     &-right {
       grid-column: 3;
+    }
+  }
+
+  @media screen and (min-width: 480px) {
+
+    &__header {
+      margin-bottom: 5rem;
+    }
+
+    &__video {
+      margin-bottom: 7rem;
+    }
+
+    &__embed-container {
+      background-size: 100px;
     }
   }
 }

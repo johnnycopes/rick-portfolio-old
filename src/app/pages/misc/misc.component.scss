@@ -11,6 +11,8 @@
   }
 
   &__links {
+    display: flex;
+    flex-direction: column;
     margin-bottom: 5rem;
   }
 
@@ -35,8 +37,8 @@
     cursor: pointer;
     border-radius: 5px;
     padding: 1rem;
-    min-height: 250px; // make button the same width/height as image
-    min-width: 377px; // in case it's slow to load
+    min-height: 150px; // make button the same width/height as image
+    min-width: 226.2px; // in case it's slow to load
     position: relative;
     outline: none;
     transition: $medium-transition;
@@ -54,7 +56,21 @@
     }
 
     &-img {
-      height: 250px;
+      height: 150px;
     }
+  }
+
+
+  @media screen and (min-width: 500px) {
+
+    &__btn {
+      min-height: 250px; // make button the same width/height as image
+      min-width: 377px; // in case it's slow to load
+
+      &-img {
+        height: 250px;
+      }
+    }
+
   }
 }

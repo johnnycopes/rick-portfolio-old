@@ -1,18 +1,11 @@
 @import '~scss/variables';
 
 .about {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 10px;
-  align-items: center;
 
   &__pic {
-    grid-column: 1;
-    width: 100%;
-  }
-
-  &__bio {
-    grid-column: 2;
+    max-width: 70%;
+    max-height: 300px;
+    margin: 0 auto 3rem;
   }
 
   &__greeting {
@@ -22,7 +15,7 @@
   &__btn-group {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    grid-template-columns: 160px 160px;
+    grid-template-columns: 100px 100px;
     grid-gap: 10px;
     justify-content: center;
     align-items: center;
@@ -37,4 +30,41 @@
       color: $action-color;
     }
   }
+
+  @media screen and (min-width: 400px) {
+
+    &__btn-group {
+      grid-template-columns: 120px 120px;
+    }
+
+  }
+
+  @media screen and (min-width: 500px) {
+
+    &__btn-group {
+      grid-template-columns: 160px 160px;
+    }
+
+  }
+
+  @media screen and (min-width: 700px) {
+
+    .about {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 10px;
+      align-items: center;
+    }
+
+    &__pic {
+      grid-column: 1;
+      width: 100%;
+    }
+
+    &__bio {
+      grid-column: 2;
+    }
+
+  }
+
 }
