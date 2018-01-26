@@ -35,7 +35,7 @@
     }
 
     &-divider {
-      padding-right: 1.4rem;
+      margin-right: 0.5rem;
 
       &:hover {
         color: $font-color;
@@ -45,6 +45,7 @@
     &-misc {
       padding-top: 0;
       padding-bottom: 0;
+      padding-right: 0 !important;
     }
   }
 
@@ -54,7 +55,7 @@
   }
 
   &__name {
-    padding-left: 0;
+    padding-left: 0 !important;
     font-weight: 400;
   }
 
@@ -69,10 +70,11 @@
 
     &__item {
       padding: 1rem;
+    }
 
-      &-divider {
-        padding-right: 1.5rem;
-      }
+    &__icon {
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
     }
 
   }

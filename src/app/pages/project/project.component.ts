@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Router, NavigationEnd, ActivatedRoute } from '@angular/router';
 import { HostListener } from '@angular/core';
+import { Router, ActivatedRoute } from '@angular/router';
+import { Location } from '@angular/common';
 
 import { ProjectService } from '../../services/project.service';
 import { Project } from '../../shared/project.model';
@@ -29,12 +30,17 @@ export class ProjectComponent implements OnInit {
   constructor(
     private router: Router,
     private route: ActivatedRoute,
+    private location: Location,
     private projectService: ProjectService
   ) { }
 
   ngOnInit() {
     this.getProject();
     window.scrollTo(0, 0);
+  }
+
+  goBack(): void {
+    this.location.back();
   }
 
   getProject(): void {

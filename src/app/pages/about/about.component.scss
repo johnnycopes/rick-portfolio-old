@@ -47,18 +47,20 @@
 
   }
 
-  @media screen and (min-width: 700px) {
+  @media screen and (min-width: 900px) {
 
-    .about {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-gap: 10px;
-      align-items: center;
-    }
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
 
     &__pic {
       grid-column: 1;
+      margin: 0;
       width: 100%;
+      max-width: none;
+      max-height: none;
     }
 
     &__bio {
