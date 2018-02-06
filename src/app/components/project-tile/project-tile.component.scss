@@ -21,7 +21,7 @@
     width: 100%;
     background: rgba(0,0,0,0.6);
     z-index: 1;
-    opacity: 0;
+    opacity: 1;
   }
 
   &__splash {
@@ -39,7 +39,7 @@
   &__container {
     margin: 0 auto;
     width: 80%;
-    opacity: 0;
+    opacity: 1;
     transform: translateY(-10px);
     transition: $medium-transition;
   }
@@ -49,16 +49,30 @@
     font-weight: 400;
   }
 
-  &:hover {
-    transform: $scale;
+
+  @media screen and (min-width: 1050px) {
+
+    &::after {
+      opacity: 0;
+    }
+
+    &__container {
+      opacity: 0;
+    }
+
+    &:hover {
+      transform: $scale;
+    }
+
+    &:hover::after {
+      opacity: 1;
+    }
+
+    &:hover &__container {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
   }
 
-  &:hover::after {
-    opacity: 1;
-  }
-
-  &:hover &__container {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
