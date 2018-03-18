@@ -15,7 +15,7 @@ A modern, minimalist portfolio I built for a friend who works as a Senior Produc
 To run this locally on your machine, simply clone the repo and enter the following commands into your CLI:
 
 ```
-`ng serve --open`
+ng serve --open
 ```
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.3. The app will automatically reload if you change any of the source files.
