@@ -1,6 +1,6 @@
 # Rick Segal portfolio
 
-### Live site: https://dont-tell-rick.surge.sh/
+### Live site: https://www.rick-segal.com/
 
 A modern, minimalist portfolio I built for a friend who works as a Senior Producer at an advertisting agency. Built with Angular. I also wrote a [blog post](https://medium.com/@johnnycopes/lessons-learned-from-my-first-angular-2-project-c3ff2593fe7d) about this project.
 
