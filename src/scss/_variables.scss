@@ -12,7 +12,7 @@ $action-color: #fb0006;
 // TYPOGRAPHY
 // ===================
 
-$font-stack: 'Lato', 'HelveticaNeue', 'Helvetica Neue', 'Helevtica', 'Lucida Grande', 'Trebuchet MS', sans-serif;
+$font-stack: 'Roboto', 'HelveticaNeue', 'Helvetica Neue', 'Helevtica', 'Lucida Grande', 'Trebuchet MS', sans-serif;
 
 
 // ===================
@@ -22,3 +22,26 @@ $font-stack: 'Lato', 'HelveticaNeue', 'Helvetica Neue', 'Helevtica', 'Lucida Gra
 $scale: scale(1.02);
 $fast-transition: all 150ms ease-in-out;
 $medium-transition: all 250ms ease-in-out;
+
+@keyframes enter-top {
+  0% {
+    transform: translateY(-5vh);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes enter-bottom {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

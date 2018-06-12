@@ -2,7 +2,55 @@ import { Project } from './project.model';
 
 export const PROJECTS: Project[] = [
   {
-    id: 1,
+    id: 22,
+    headline: 'Windows 10',
+    title: 'Katie Button',
+    thumbnail: '',
+    videos: [
+      {
+        name: 'TV',
+        url: 'https://player.vimeo.com/video/250293749'
+      }
+    ]
+  },
+  {
+    id: 21,
+    headline: 'Windows 10',
+    title: 'Toney Jackson',
+    thumbnail: '',
+    videos: [
+      {
+        name: 'TV',
+        url: 'https://player.vimeo.com/video/250293659'
+      }
+    ]
+  },
+  {
+    id: 20,
+    headline: 'McCann Erickson',
+    title: 'Timeless Reflections',
+    thumbnail: '',
+    videos: [
+      {
+        name: 'TV',
+        url: 'https://player.vimeo.com/video/250293825'
+      }
+    ]
+  },
+  {
+    id: 19,
+    headline: 'Office 365',
+    title: 'LovePop',
+    thumbnail: '',
+    videos: [
+      {
+        name: 'TV',
+        url: 'https://player.vimeo.com/video/250294019'
+      }
+    ]
+  },
+  {
+    id: 18,
     headline: 'Microsoft',
     title: 'Spread Harmony',
     thumbnail: 'Spread-Harmony',
@@ -18,7 +66,7 @@ export const PROJECTS: Project[] = [
     ]
   },
   {
-    id: 2,
+    id: 17,
     headline: 'Windows 10',
     title: 'Newest Users',
     thumbnail: 'Newest-Users',
@@ -34,7 +82,7 @@ export const PROJECTS: Project[] = [
     ]
   },
   {
-    id: 3,
+    id: 16,
     headline: 'Windows 10',
     title: 'Bug Chicks',
     thumbnail: 'Bug-Chicks',
@@ -46,7 +94,7 @@ export const PROJECTS: Project[] = [
     ]
   },
   {
-    id: 4,
+    id: 15,
     headline: 'Surface Pro 4',
     title: 'Snapchat Eurotrip',
     thumbnail: 'Snapchat-Eurotrip',
@@ -58,7 +106,7 @@ export const PROJECTS: Project[] = [
     ]
   },
   {
-    id: 5,
+    id: 14,
     headline: 'Surface Book',
     title: 'Tim Flach',
     thumbnail: 'Tim-Flach',
@@ -70,7 +118,7 @@ export const PROJECTS: Project[] = [
     ]
   },
   {
-    id: 6,
+    id: 13,
     headline: 'Microsoft',
     title: 'Girls Do Science',
     thumbnail: 'Girls-Do-Science',
@@ -86,7 +134,7 @@ export const PROJECTS: Project[] = [
     ]
   },
   {
-    id: 7,
+    id: 12,
     headline: 'Microsoft',
     title: 'Digital',
     thumbnail: 'Digital',
@@ -102,7 +150,7 @@ export const PROJECTS: Project[] = [
     ]
   },
   {
-    id: 8,
+    id: 11,
     headline: 'Intel',
     title: 'Simon Jacomet',
     thumbnail: 'Simon-Jacomet',
@@ -114,7 +162,7 @@ export const PROJECTS: Project[] = [
     ]
   },
   {
-    id: 9,
+    id: 10,
     headline: 'Surface Book',
     title: 'Times Square Takeover',
     thumbnail: 'Times-Square-Takeover',
@@ -129,20 +177,20 @@ export const PROJECTS: Project[] = [
       }
     ]
   },
+  // {
+  //   id: 9,
+  //   headline: 'Lenovo',
+  //   title: 'Yasmin Belo-Osagie',
+  //   thumbnail: 'Yasmin-Belo-Osagie',
+  //   videos: [
+  //     {
+  //       name: 'TV',
+  //       url: 'https://player.vimeo.com/video/201602899'
+  //     }
+  //   ]
+  // },
   {
-    id: 10,
-    headline: 'Lenovo',
-    title: 'Yasmin Belo-Osagie',
-    thumbnail: 'Yasmin-Belo-Osagie',
-    videos: [
-      {
-        name: 'TV',
-        url: 'https://player.vimeo.com/video/201602899'
-      }
-    ]
-  },
-  {
-    id: 11,
+    id: 8,
     headline: 'Surface Pro 4',
     title: 'Steven Mancusi',
     thumbnail: 'Steven-Mancusi',
@@ -154,7 +202,7 @@ export const PROJECTS: Project[] = [
     ]
   },
   // {
-  //   id: 12,
+  //   id: 7,
   //   headline: 'Office 365',
   //   title: 'LovePop',
   //   thumbnail: 'Steven-Mancusi',
@@ -166,7 +214,7 @@ export const PROJECTS: Project[] = [
   //   ]
   // },
   // {
-  //   id: 13,
+  //   id: 6,
   //   headline: 'Microsoft Inking',
   //   title: 'King of Inking',
   //   thumbnail: 'Steven-Mancusi',
@@ -178,7 +226,7 @@ export const PROJECTS: Project[] = [
   //   ]
   // },
   // {
-  //   id: 14,
+  //   id: 5,
   //   headline: 'Windows 10',
   //   title: 'Toney Jackson',
   //   thumbnail: 'Steven-Mancusi',
@@ -190,7 +238,7 @@ export const PROJECTS: Project[] = [
   //   ]
   // },
   // {
-  //   id: 15,
+  //   id: 4,
   //   headline: 'Office 365',
   //   title: 'Detroit Wallpaper',
   //   thumbnail: 'Steven-Mancusi',
@@ -202,7 +250,7 @@ export const PROJECTS: Project[] = [
   //   ]
   // },
   // {
-  //   id: 16,
+  //   id: 3,
   //   headline: 'McCann // M:United',
   //   title: 'Holiday Card',
   //   thumbnail: 'Steven-Mancusi',
@@ -214,7 +262,7 @@ export const PROJECTS: Project[] = [
   //   ]
   // },
   // {
-  //   id: 17,
+  //   id: 2,
   //   headline: 'Windows 10',
   //   title: 'Katie Button',
   //   thumbnail: 'Steven-Mancusi',
@@ -226,7 +274,7 @@ export const PROJECTS: Project[] = [
   //   ]
   // },
   {
-    id: 18,
+    id: 1,
     headline: 'Personal',
     title: 'Photography',
     thumbnail: 'field',
