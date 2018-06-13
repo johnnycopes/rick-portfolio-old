@@ -50,8 +50,11 @@ li {
   align-items: center;
   color: $font-color;
   border: 1px solid $font-color;
-  // transition: $transition;
   cursor: pointer;
+}
+
+.accent {
+  color: $action-color;
 }
 
 

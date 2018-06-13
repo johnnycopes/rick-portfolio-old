@@ -17,7 +17,7 @@
     background: $action-color;
     transform: scaleX(0);
     transform-origin: 50%;
-    transition: transform 250ms ease-out;
+    transition: $medium-transition;
   }
 
   &:hover {
