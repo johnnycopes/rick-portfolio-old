@@ -5,17 +5,16 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build:mac": "ng build --prod && cp favicon.png dist && cd dist && mv index.html 200.html",
-    "build:win": "ng build --prod && copy favicon.png dist && cd dist && move index.html 200.html",
-    "deploy:mac": "ng build:mac --prod && surge . --domain https://dont-tell-rick.surge.sh",
-    "deploy:win": "ng build:win --prod && surge . --domain https://dont-tell-rick.surge.sh",
+    "build": "ng build --prod",
+    "deploy:mac": "ng build --prod && cp favicon.png dist && cd dist && mv index.html 200.html && surge . --domain https://dont-tell-rick.surge.sh",
+    "deploy:win": "ng build --prod && copy favicon.png dist && cd dist && move index.html 200.html && surge . --domain https://dont-tell-rick.surge.sh",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "^5.2.9",
+    "@angular/animations": "^5.2.0",
     "@angular/common": "^5.2.9",
     "@angular/compiler": "^5.2.9",
     "@angular/core": "^5.2.9",
@@ -24,9 +23,9 @@
     "@angular/platform-browser": "^5.2.9",
     "@angular/platform-browser-dynamic": "^5.2.9",
     "@angular/router": "^5.2.9",
-    "core-js": "^2.5.4",
+    "core-js": "^2.4.1",
     "rxjs": "^5.5.7",
-    "zone.js": "^0.8.24"
+    "zone.js": "^0.8.20"
   },
   "devDependencies": {
     "@angular/cli": "1.6.3",
