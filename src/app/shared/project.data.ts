@@ -2,46 +2,10 @@ import { Project } from './project.model';
 
 export const PROJECTS: Project[] = [
   {
-    id: 22,
-    headline: 'Windows 10',
-    title: 'Katie Button',
-    thumbnail: '',
-    videos: [
-      {
-        name: 'TV',
-        url: 'https://player.vimeo.com/video/250293749'
-      }
-    ]
-  },
-  {
-    id: 21,
-    headline: 'Windows 10',
-    title: 'Toney Jackson',
-    thumbnail: '',
-    videos: [
-      {
-        name: 'TV',
-        url: 'https://player.vimeo.com/video/250293659'
-      }
-    ]
-  },
-  {
-    id: 20,
-    headline: 'McCann Erickson',
-    title: 'Timeless Reflections',
-    thumbnail: '',
-    videos: [
-      {
-        name: 'TV',
-        url: 'https://player.vimeo.com/video/250293825'
-      }
-    ]
-  },
-  {
     id: 19,
     headline: 'Office 365',
     title: 'LovePop',
-    thumbnail: '',
+    thumbnail: 'Love-Pop',
     videos: [
       {
         name: 'TV',
@@ -299,6 +263,42 @@ export const PROJECTS: Project[] = [
       'surface-uncanny-4',
       'surface-uncanny-6',
       'Worcester-MA-2009'
+    ]
+  },
+  {
+    id: 22,
+    headline: 'Windows 10',
+    title: 'Katie Button',
+    thumbnail: 'Katie-Button',
+    videos: [
+      {
+        name: 'TV',
+        url: 'https://player.vimeo.com/video/250293749'
+      }
+    ]
+  },
+  {
+    id: 21,
+    headline: 'Windows 10',
+    title: 'Toney Jackson',
+    thumbnail: 'Toney-Jackson',
+    videos: [
+      {
+        name: 'TV',
+        url: 'https://player.vimeo.com/video/250293659'
+      }
+    ]
+  },
+  {
+    id: 20,
+    headline: 'McCann Erickson',
+    title: 'Timeless Reflections',
+    thumbnail: 'Timeless-Reflections',
+    videos: [
+      {
+        name: 'TV',
+        url: 'https://player.vimeo.com/video/250293825'
+      }
     ]
   }
 ];

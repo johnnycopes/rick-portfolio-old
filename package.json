@@ -5,9 +5,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod",
-    "deploy:mac": "ng build --prod && cp favicon.png dist && cd dist && mv index.html 200.html && surge . --domain https://dont-tell-rick.surge.sh",
-    "deploy:win": "ng build --prod && copy favicon.png dist && cd dist && move index.html 200.html && surge . --domain https://dont-tell-rick.surge.sh",
+    "build:mac": "ng build --prod && cp favicon.png dist && cd dist && mv index.html 200.html",
+    "build:win": "ng build --prod && copy favicon.png dist && cd dist && move index.html 200.html",
+    "deploy:mac": "ng build:mac --prod && surge . --domain https://dont-tell-rick.surge.sh",
+    "deploy:win": "ng build:win --prod && surge . --domain https://dont-tell-rick.surge.sh",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

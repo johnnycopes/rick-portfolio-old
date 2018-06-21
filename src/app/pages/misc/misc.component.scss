@@ -18,10 +18,10 @@
 
   &__link {
     margin-bottom: 3rem;
-    transition: $fast-transition;
 
     &-name {
       font-weight: 400;
+      transition: $fast-transition;
     }
 
     &:last-child {
