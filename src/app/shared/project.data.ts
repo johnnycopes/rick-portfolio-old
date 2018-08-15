@@ -238,6 +238,30 @@ export const PROJECTS: Project[] = [
   //   ]
   // },
   {
+    id: 21,
+    headline: 'Windows 10',
+    title: 'Toney Jackson',
+    thumbnail: 'Toney-Jackson',
+    videos: [
+      {
+        name: 'TV',
+        url: 'https://player.vimeo.com/video/250293659'
+      }
+    ]
+  },
+  {
+    id: 22,
+    headline: 'Windows 10',
+    title: 'Katie Button',
+    thumbnail: 'Katie-Button',
+    videos: [
+      {
+        name: 'TV',
+        url: 'https://player.vimeo.com/video/250293749'
+      }
+    ]
+  },
+  {
     id: 1,
     headline: 'Personal',
     title: 'Photography',
@@ -263,30 +287,6 @@ export const PROJECTS: Project[] = [
       'Orono-at-night',
       'Paris-2010',
       'Worcester-MA-2009'
-    ]
-  },
-  {
-    id: 22,
-    headline: 'Windows 10',
-    title: 'Katie Button',
-    thumbnail: 'Katie-Button',
-    videos: [
-      {
-        name: 'TV',
-        url: 'https://player.vimeo.com/video/250293749'
-      }
-    ]
-  },
-  {
-    id: 21,
-    headline: 'Windows 10',
-    title: 'Toney Jackson',
-    thumbnail: 'Toney-Jackson',
-    videos: [
-      {
-        name: 'TV',
-        url: 'https://player.vimeo.com/video/250293659'
-      }
     ]
   },
   {
