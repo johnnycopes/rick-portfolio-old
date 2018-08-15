@@ -243,6 +243,12 @@ export const PROJECTS: Project[] = [
     title: 'Photography',
     thumbnail: 'field',
     photos: [
+      'surface-uncanny-0',
+      'surface-uncanny-1',
+      'surface-uncanny-2',
+      'surface-uncanny-3',
+      'surface-uncanny-4',
+      'surface-uncanny-6',
       'Barcelona-2011',
       'field',
       'Fountain-2011',
@@ -256,12 +262,6 @@ export const PROJECTS: Project[] = [
       'millenial-bridge',
       'Orono-at-night',
       'Paris-2010',
-      'surface-uncanny-0',
-      'surface-uncanny-1',
-      'surface-uncanny-2',
-      'surface-uncanny-3',
-      'surface-uncanny-4',
-      'surface-uncanny-6',
       'Worcester-MA-2009'
     ]
   },
