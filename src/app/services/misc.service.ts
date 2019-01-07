@@ -2,11 +2,13 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
 import { of } from 'rxjs/observable/of';
 
-import { Misc, Website, Song, Instagram } from '../shared/misc.model';
+import { Misc } from '../shared/misc.model';
 import { MISC } from '../shared/misc.data';
 
 @Injectable()
 export class MiscService {
+
+  constructor() { }
 
   getMisc(): Observable<Misc> {
     return of(MISC);
@@ -24,5 +26,4 @@ export class MiscService {
     return Math.floor(Math.random() * arrLength);
   }
 
-  constructor() { }
 }

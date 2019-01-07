@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HostListener } from '@angular/core';
-import { Router, ActivatedRoute } from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
 
 import { ProjectService } from '../../services/project.service';
@@ -28,7 +28,6 @@ export class ProjectComponent implements OnInit {
   }
 
   constructor(
-    private router: Router,
     private route: ActivatedRoute,
     private location: Location,
     private projectService: ProjectService
@@ -44,7 +43,7 @@ export class ProjectComponent implements OnInit {
   }
 
   getProject(): void {
-    const projectID: number = Number(this.route.snapshot.paramMap.get('id')); // grab project ID from the URL
+    const projectID = this.route.snapshot.paramMap.get('id'); // grab project ID from the URL
     this.projectService.getProject(projectID)
       .subscribe(project => this.project = project);
   }

@@ -4,7 +4,6 @@ interface Video {
 }
 
 export interface Project {
-  id: number;
   headline: string;
   title: string;
   thumbnail: string;

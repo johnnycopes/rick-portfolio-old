@@ -6,10 +6,8 @@ import {
   query,
   style,
   animate,
-  group,
-  animateChild
+  group
 } from '@angular/animations';
-import { ActivatedRoute } from '@angular/router/src/router_state';
 
 @Component({
   selector: 'app-root',

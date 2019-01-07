@@ -1,5 +1,5 @@
 <div class="misc">
-  <h2 class="misc__header">Things that I like:</h2>
+  <h2 class="misc__header">Random things that I like:</h2>
   <div class="misc__links"
     [@fadeIn]="state"
     >
@@ -10,21 +10,21 @@
       Website that I like: <span class="misc__link-name">{{website.name}}</span>
     </a>
     <a class="misc__link"
-      [href]="song.url"
+      href="https://youtu.be/{{song.youtubeID}}"
       target="_blank"
       >
       Song that I like: <span class="misc__link-name">{{song.artist}} — {{song.name}}</span>
     </a>
     <a class="misc__link"
-      [href]="instagram.url"
+      href="https://www.instagram.com/{{instagram}}"
       target="_blank"
       >
-      Instagram that I like: <span class="misc__link-name">{{instagram.user}}</span>
+      Instagram that I like: <span class="misc__link-name">@{{instagram}}</span>
     </a>
   </div>
   <button class="misc__btn"
     (click)="getRandomLinks()"
-  >
+    >
     <img class="misc__btn-img"
       src="assets/img/khaled.jpg"
       alt="Click here for another one"

@@ -90,104 +90,124 @@ export const MISC: Misc = {
       name: 'The Noun Project',
       url: 'https://thenounproject.com/'
     },
+    {
+      name: 'Modern Anthology',
+      url: 'http://www.modernanthology.com/'
+    },
+    {
+      name: 'Gucci Gifts',
+      url: 'http://gift.gucci.com/'
+    },
+    {
+      name: 'Wirecutter',
+      url: 'https://thewirecutter.com/'
+    },
+    {
+      name: 'The Strategist',
+      url: 'http://nymag.com/strategist/'
+    },
+    {
+      name: 'What The Font',
+      url: 'https://www.myfonts.com/WhatTheFont/'
+    },
+    {
+      name: 'What The Fuck Should I Make For Dinner',
+      url: 'http://whatthefuckshouldimakefordinner.com/'
+    },
+    {
+      name: 'Who Sampled',
+      url: 'https://www.whosampled.com/'
+    },
   ],
   songs: [
     {
       name: 'Am I Wrong',
       artist: 'Anderson Paak',
-      url: 'https://youtu.be/vvPeJLcK2Lk'
+      youtubeID: 'vvPeJLcK2Lk'
     },
     {
       name: 'Constantly Hating',
       artist: 'Young Thug',
-      url: 'https://youtu.be/pGF0EYpp1dk'
+      youtubeID: 'pGF0EYpp1dk'
     },
     {
       name: 'Man of the Year',
       artist: 'Schoolboy Q',
-      url: 'https://youtu.be/rEMsjeq43_U'
+      youtubeID: 'rEMsjeq43_U'
     },
     {
       name: 'Wild for the Night',
       artist: 'A$AP Rocky',
-      url: 'https://youtu.be/1eWdbMBYlH4'
+      youtubeID: '1eWdbMBYlH4'
     },
     {
       name: 'Father Stretch My Hands Pt 2',
       artist: 'Kanye West',
-      url: 'https://youtu.be/lUu_ycfMT2U'
+      youtubeID: 'lUu_ycfMT2U'
     },
     {
       name: 'No Problem',
       artist: 'Chance the Rapper',
-      url: 'https://youtu.be/DVkkYlQNmbc'
+      youtubeID: 'DVkkYlQNmbc'
     },
     {
       name: 'Devastated',
       artist: 'Joey Bada$$',
-      url: 'https://youtu.be/RLnA25dVzrQ'
+      youtubeID: 'RLnA25dVzrQ'
+    },
+    {
+      name: 'That\'s What I Like',
+      artist: 'Bruno Mars',
+      youtubeID: 'PMivT7MJ41M'
+    },
+    {
+      name: 'I Like It',
+      artist: 'Cardi B',
+      youtubeID: 'xTlNMmZKwpA'
+    },
+    {
+      name: 'Girl Blunt',
+      artist: 'Leikeli47',
+      youtubeID: 'xI8w-h-HCAg'
+    },
+    {
+      name: 'Hold Up',
+      artist: 'Beyoncé',
+      youtubeID: 'PeonBmeFR8o'
+    },
+    {
+      name: 'Nobody Speak',
+      artist: 'Run The Jewels',
+      youtubeID: 'NUC2EQvdzmY'
+    },
+    {
+      name: 'Humble',
+      artist: 'Kendrick Lamar',
+      youtubeID: 'tvTRZJ-4EyI'
     },
   ],
   instagrams: [
-    {
-      user: '@SamsonTheDood',
-      url: 'https://www.instagram.com/samsonthedood'
-    },
-    {
-      user: '@JakeLikesOnions',
-      url: 'https://www.instagram.com/jakelikesonions'
-    },
-    {
-      user: '@JonContino',
-      url: 'https://www.instagram.com/joncontino'
-    },
-    {
-      user: '@MensWearDog',
-      url: 'https://www.instagram.com/mensweardog'
-    },
-    {
-      user: '@MiddleClassFancy',
-      url: 'https://www.instagram.com/middleclassfancy'
-    },
-    {
-      user: '@MillerHighLife',
-      url: 'https://www.instagram.com/millerhighlife'
-    },
-    {
-      user: '@adamlucasnyc',
-      url: 'https://www.instagram.com/adamlucasNYC'
-    },
-    {
-      user: '@emrata',
-      url: 'https://www.instagram.com/emrata'
-    },
-    {
-      user: '@143is',
-      url: 'https://www.instagram.com/143is'
-    },
-    {
-      user: '@laflare1017',
-      url: 'https://www.instagram.com/laflare1017'
-    },
-    {
-      user: '@donaldtrumpdoingthings',
-      url: 'https://www.instagram.com/donaldtrumpdoingthings'
-    },
-    {
-      user: '@beefcake_boys_soaps',
-      url: 'https://www.instagram.com/beefcake_boys_soaps'
-    },
-    {
-      user: '@fuckadvertisements',
-      url: 'https://www.instagram.com/fuckadvertisements'
-    },
-    {
-      user: '@subwaycreatures',
-      url: 'https://www.instagram.com/subwaycreatures'
-    },
-    {
-      user: '@humansofnylol',
-      url: 'https://www.instagram.com/humansofnylol'
-    }
+    'SamsonTheDood',
+    'JakeLikesOnions',
+    'JonContino',
+    'MensWearDog',
+    'MiddleClassFancy',
+    'MillerHighLife',
+    'adamlucasnyc',
+    'emrata',
+    '143is',
+    'laflare1017',
+    'donaldtrumpdoingthings',
+    'beefcake_boys_soaps',
+    'fuckadvertisements',
+    'subwaycreatures',
+    'humansofnylol',
+    'homsweethom',
+    'youngjerks',
+    'newyorkercartoons',
+    'bonappetitmag',
+    'gucci',
+    'jvn',
+    'zacharykiernan',
   ]
 };

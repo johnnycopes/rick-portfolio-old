@@ -6,13 +6,10 @@ export interface Website {
 export interface Song {
   name: string;
   artist: string;
-  url: string;
+  youtubeID: string;
 }
 
-export interface Instagram {
-  user: string;
-  url: string;
-}
+export type Instagram = string;
 
 export interface Misc {
   websites: Website[];

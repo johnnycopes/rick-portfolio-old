@@ -8,13 +8,14 @@ import { PROJECTS } from '../shared/project.data';
 @Injectable()
 export class ProjectService {
 
+  constructor() { }
+
   getProjects(): Observable<Project[]> {
     return of(PROJECTS);
   }
 
-  getProject(id: number): Observable<Project> {
-    return of(PROJECTS.filter(project => project.id === id)[0]);
+  getProject(title: string | null): Observable<Project> {
+    return of(PROJECTS.filter(project => project.title === title)[0]);
   }
 
-  constructor() { }
 }

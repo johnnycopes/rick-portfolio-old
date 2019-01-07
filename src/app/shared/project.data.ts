@@ -2,19 +2,54 @@ import { Project } from './project.model';
 
 export const PROJECTS: Project[] = [
   {
-    id: 19,
-    headline: 'Office 365',
-    title: 'LovePop',
-    thumbnail: 'Love-Pop',
+    headline: 'Surface Pro',
+    title: 'NFL',
+    thumbnail: 'NFL',
     videos: [
       {
         name: 'TV',
-        url: 'https://player.vimeo.com/video/250294019'
+        url: 'https://player.vimeo.com/video/309491843'
       }
     ]
   },
   {
-    id: 18,
+    headline: 'Office 365',
+    title: 'Howtoons',
+    thumbnail: 'HowToons',
+    videos: [
+      {
+        name: 'TV',
+        url: 'https://player.vimeo.com/video/274526298'
+      }
+    ]
+  },
+  {
+    headline: 'Windows',
+    title: 'Modern Mainstream',
+    thumbnail: 'Modern-Mainstream',
+    videos: [
+      {
+        name: 'TV',
+        url: 'https://player.vimeo.com/video/309492691'
+      },
+      {
+        name: 'TV',
+        url: 'https://player.vimeo.com/video/309490659'
+      }
+    ]
+  },
+  {
+    headline: 'Windows 10',
+    title: 'Toney Jackson',
+    thumbnail: 'Toney-Jackson',
+    videos: [
+      {
+        name: 'TV',
+        url: 'https://player.vimeo.com/video/250293659'
+      }
+    ]
+  },
+  {
     headline: 'Microsoft',
     title: 'Spread Harmony',
     thumbnail: 'Spread-Harmony',
@@ -30,7 +65,6 @@ export const PROJECTS: Project[] = [
     ]
   },
   {
-    id: 17,
     headline: 'Windows 10',
     title: 'Newest Users',
     thumbnail: 'Newest-Users',
@@ -46,7 +80,6 @@ export const PROJECTS: Project[] = [
     ]
   },
   {
-    id: 16,
     headline: 'Windows 10',
     title: 'Bug Chicks',
     thumbnail: 'Bug-Chicks',
@@ -58,31 +91,6 @@ export const PROJECTS: Project[] = [
     ]
   },
   {
-    id: 15,
-    headline: 'Surface Pro 4',
-    title: 'Snapchat Eurotrip',
-    thumbnail: 'Snapchat-Eurotrip',
-    videos: [
-      {
-        name: 'Online Video',
-        url: 'https://player.vimeo.com/video/199379527'
-      }
-    ]
-  },
-  {
-    id: 14,
-    headline: 'Surface Book',
-    title: 'Tim Flach',
-    thumbnail: 'Tim-Flach',
-    videos: [
-      {
-        name: 'TV',
-        url: 'https://player.vimeo.com/video/199376398'
-      }
-    ]
-  },
-  {
-    id: 13,
     headline: 'Microsoft',
     title: 'Girls Do Science',
     thumbnail: 'Girls-Do-Science',
@@ -98,7 +106,28 @@ export const PROJECTS: Project[] = [
     ]
   },
   {
-    id: 12,
+    headline: 'Surface Book',
+    title: 'Tim Flach',
+    thumbnail: 'Tim-Flach',
+    videos: [
+      {
+        name: 'TV',
+        url: 'https://player.vimeo.com/video/199376398'
+      }
+    ]
+  },
+  {
+    headline: 'Surface Pro 4',
+    title: 'Snapchat Eurotrip',
+    thumbnail: 'Snapchat-Eurotrip',
+    videos: [
+      {
+        name: 'Online Video',
+        url: 'https://player.vimeo.com/video/199379527'
+      }
+    ]
+  },
+  {
     headline: 'Microsoft',
     title: 'Digital',
     thumbnail: 'Digital',
@@ -114,19 +143,17 @@ export const PROJECTS: Project[] = [
     ]
   },
   {
-    id: 11,
-    headline: 'Intel',
-    title: 'Simon Jacomet',
-    thumbnail: 'Simon-Jacomet',
+    headline: 'Surface Pro 4',
+    title: 'Steven Mancusi',
+    thumbnail: 'Steven-Mancusi',
     videos: [
       {
         name: 'TV',
-        url: 'https://player.vimeo.com/video/199379408'
+        url: 'https://player.vimeo.com/video/199375987'
       }
     ]
   },
   {
-    id: 10,
     headline: 'Surface Book',
     title: 'Times Square Takeover',
     thumbnail: 'Times-Square-Takeover',
@@ -142,7 +169,6 @@ export const PROJECTS: Project[] = [
     ]
   },
   // {
-  //   id: 9,
   //   headline: 'Lenovo',
   //   title: 'Yasmin Belo-Osagie',
   //   thumbnail: 'Yasmin-Belo-Osagie',
@@ -154,19 +180,17 @@ export const PROJECTS: Project[] = [
   //   ]
   // },
   {
-    id: 8,
-    headline: 'Surface Pro 4',
-    title: 'Steven Mancusi',
-    thumbnail: 'Steven-Mancusi',
+    headline: 'Intel',
+    title: 'Simon Jacomet',
+    thumbnail: 'Simon-Jacomet',
     videos: [
       {
         name: 'TV',
-        url: 'https://player.vimeo.com/video/199375987'
+        url: 'https://player.vimeo.com/video/199379408'
       }
     ]
   },
   // {
-  //   id: 7,
   //   headline: 'Office 365',
   //   title: 'LovePop',
   //   thumbnail: 'Steven-Mancusi',
@@ -178,7 +202,6 @@ export const PROJECTS: Project[] = [
   //   ]
   // },
   // {
-  //   id: 6,
   //   headline: 'Microsoft Inking',
   //   title: 'King of Inking',
   //   thumbnail: 'Steven-Mancusi',
@@ -190,7 +213,6 @@ export const PROJECTS: Project[] = [
   //   ]
   // },
   // {
-  //   id: 5,
   //   headline: 'Windows 10',
   //   title: 'Toney Jackson',
   //   thumbnail: 'Steven-Mancusi',
@@ -202,7 +224,6 @@ export const PROJECTS: Project[] = [
   //   ]
   // },
   // {
-  //   id: 4,
   //   headline: 'Office 365',
   //   title: 'Detroit Wallpaper',
   //   thumbnail: 'Steven-Mancusi',
@@ -214,7 +235,6 @@ export const PROJECTS: Project[] = [
   //   ]
   // },
   // {
-  //   id: 3,
   //   headline: 'McCann // M:United',
   //   title: 'Holiday Card',
   //   thumbnail: 'Steven-Mancusi',
@@ -226,7 +246,6 @@ export const PROJECTS: Project[] = [
   //   ]
   // },
   // {
-  //   id: 2,
   //   headline: 'Windows 10',
   //   title: 'Katie Button',
   //   thumbnail: 'Steven-Mancusi',
@@ -238,19 +257,17 @@ export const PROJECTS: Project[] = [
   //   ]
   // },
   {
-    id: 21,
-    headline: 'Windows 10',
-    title: 'Toney Jackson',
-    thumbnail: 'Toney-Jackson',
+    headline: 'Office 365',
+    title: 'LovePop',
+    thumbnail: 'Love-Pop',
     videos: [
       {
         name: 'TV',
-        url: 'https://player.vimeo.com/video/250293659'
+        url: 'https://player.vimeo.com/video/250294019'
       }
     ]
   },
   {
-    id: 22,
     headline: 'Windows 10',
     title: 'Katie Button',
     thumbnail: 'Katie-Button',
@@ -262,7 +279,6 @@ export const PROJECTS: Project[] = [
     ]
   },
   {
-    id: 1,
     headline: 'Personal',
     title: 'Photography',
     thumbnail: 'field',
@@ -290,7 +306,6 @@ export const PROJECTS: Project[] = [
     ]
   },
   {
-    id: 20,
     headline: 'McCann Erickson',
     title: 'Timeless Reflections',
     thumbnail: 'Timeless-Reflections',

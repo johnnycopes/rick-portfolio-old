@@ -8,8 +8,10 @@ import { Project } from '../../shared/project.model';
 })
 export class ProjectTileComponent implements OnInit {
   @Input() project: Project;
+  backgroundImageUrl: string;
 
   ngOnInit() {
+    this.backgroundImageUrl = `url(assets/img/work-thumbnails/${this.project.thumbnail}.jpg`;
   }
 
 }

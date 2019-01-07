@@ -1,9 +1,9 @@
 <figure class="project"
-  [style.background-image]="'url(assets/img/work-thumbnails/' + project.thumbnail + '.jpg' | safe: 'style'"
+  [ngStyle]="{'background-image': backgroundImageUrl}"
   >
   <a class="project__splash"
-    routerLink="/work/{{project.id}}"
-  >
+    [routerLink]="project.title"
+    >
     <div class="project__container">
       <div class="project__headline">{{project.headline}}</div>
       <div class="project__title">{{project.title}}</div>
