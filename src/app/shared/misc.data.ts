@@ -15,10 +15,6 @@ export const MISC: Misc = {
       url: 'http://poolside.fm'
     },
     {
-      name: 'Douchey Account Guy',
-      url: 'http://doucheyaccountguy.tumblr.com'
-    },
-    {
       name: 'Le Meme',
       url: 'http://www.lememe.com'
     },
