@@ -8,14 +8,14 @@ export const PROJECTS: Project[] = [
     videos: [
       {
         name: 'TV',
-        url: 'https://player.vimeo.com/video/309491843'
+        url: 'https://player.vimeo.com/video/315092508'
       }
     ]
   },
   {
     headline: 'Office 365',
     title: 'Howtoons',
-    thumbnail: 'HowToons',
+    thumbnail: 'Howtoons',
     videos: [
       {
         name: 'TV',
