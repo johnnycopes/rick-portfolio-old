@@ -1,4 +1,6 @@
-# Rick Segal portfolio
+### This is an old version of this project and is no longer maintained. For the current version, please visit [here](https://github.com/johnnycopes/rick-portfolio).
+
+# Rick Segal portfolio (OLD)
 
 ### Live site: https://www.rick-segal.com/
 
